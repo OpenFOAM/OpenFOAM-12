@@ -32,7 +32,7 @@
 
 setenv WM_PROJECT OpenFOAM
 setenv WM_THIRD_PARTY ThirdParty
-setenv WM_PROJECT_VERSION dev
+setenv WM_PROJECT_VERSION 12
 
 ################################################################################
 # USER EDITABLE PART: Changes made here may be lost with the next upgrade

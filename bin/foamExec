@@ -34,16 +34,16 @@
 #     temporarily for the duration of command's execution. For example:
 #
 #     \code
-#         ~/OpenFOAM/OpenFOAM-dev/bin/foamExec blockMesh
-#         ~/OpenFOAM/OpenFOAM-dev/bin/foamExec decomposePar
-#         ~/OpenFOAM/OpenFOAM-dev/bin/foamExec mpirun -n 4 foamRun -parallel
-#         ~/OpenFOAM/OpenFOAM-dev/bin/foamExec reconstructPar
+#         ~/OpenFOAM/OpenFOAM-12/bin/foamExec blockMesh
+#         ~/OpenFOAM/OpenFOAM-12/bin/foamExec decomposePar
+#         ~/OpenFOAM/OpenFOAM-12/bin/foamExec mpirun -n 4 foamRun -parallel
+#         ~/OpenFOAM/OpenFOAM-12/bin/foamExec reconstructPar
 #     \endcode
 #
 #     Or, perhaps equivalently:
 #
 #     \code
-#        ~/OpenFOAM/OpenFOAM-dev/bin/foamExec ./Allrun
+#        ~/OpenFOAM/OpenFOAM-12/bin/foamExec ./Allrun
 #     \endcode
 #
 #     Note that commands including environment variables must have the '$'
@@ -51,8 +51,8 @@
 #     nothing in the outer/interactive shell. For example, to copy a tutorial:
 #
 #     \code
-#         ~/OpenFOAM/OpenFOAM-dev/bin/foamExec ls \$FOAM_TUTORIALS/*
-#         ~/OpenFOAM/OpenFOAM-dev/bin/foamExec \
+#         ~/OpenFOAM/OpenFOAM-12/bin/foamExec ls \$FOAM_TUTORIALS/*
+#         ~/OpenFOAM/OpenFOAM-12/bin/foamExec \
 #             cp -r \$FOAM_TUTORIALS/incompressibleFluid/pitzDaily .
 #     \endcode
 #

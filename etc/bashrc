@@ -33,7 +33,7 @@
 
 export WM_PROJECT=OpenFOAM
 export WM_THIRD_PARTY=ThirdParty
-export WM_PROJECT_VERSION=dev
+export WM_PROJECT_VERSION=12
 
 ################################################################################
 # USER EDITABLE PART: Changes made here may be lost with the next upgrade
