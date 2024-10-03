@@ -219,6 +219,12 @@ public:
         //- Update
         void read(const word& keyword, const dictionary&);
 
+        //- Update
+        void read(Istream& is);
+
+        //- Update
+        void read(const word& keyword, const dictionary&, Istream& is);
+
         //- Update if found in the dictionary
         bool readIfPresent(const word& keyword, const dictionary&);
 
