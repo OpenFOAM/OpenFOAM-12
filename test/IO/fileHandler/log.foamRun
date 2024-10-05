@@ -1,0 +1,113 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : foamRun -parallel -fileHandler collated
+Date   : Oct 04 2024
+Time   : 23:19:22
+Host   : "DESKTOP-KBPC6IC"
+PID    : 23693
+I/O    : collated (maxThreadFileBufferSize 2e+09)
+         Threading activated since maxThreadFileBufferSize > 0.
+         Requires large enough buffer to collect all data or thread support 
+         enabled in MPI. If thread support cannot be enabled, deactivate
+         threading by setting maxThreadFileBufferSize to 0 in
+         $FOAM_ETC/controlDict
+Case   : /home/as/openfoam/OpenFOAM-12/test/IO/fileHandler
+nProcs : 4
+Slaves : 
+3
+(
+"DESKTOP-KBPC6IC.23694"
+"DESKTOP-KBPC6IC.23695"
+"DESKTOP-KBPC6IC.23696"
+)
+
+Pstream initialised with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStamp (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting solver incompressibleFluid
+Selecting viscosity model constant
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+No MRF models present
+
+Courant Number mean: 0 max: 0
+Creating fvModels from "constant/fvModels"
+
+Selecting finite volume model type clouds
+    Name: clouds
+Selecting parcelCloud cloud
+Constructing particle forces
+    Selecting particle force sphereDrag
+    Selecting particle force gravity
+Constructing cloud functions
+    none
+Constructing particle injection models
+Creating injector: model1
+Selecting injection model manualInjection
+    Constructing 3-D injection
+Selecting distribution type fixedValue
+    min/average/max value = 0.006/0.006/0.006
+Selecting dispersion model none
+Selecting patch interaction model none
+Selecting stochastic collision model none
+Selecting surface film model none
+Selecting U integration scheme Euler
+
+PIMPLE: No convergence criteria found
+
+
+PIMPLE: Operating solver in transient mode with 1 outer corrector
+PIMPLE: Operating solver in PISO mode
+
+
+
+Starting time loop
+
+Courant Number mean: 0 max: 0
+Time = 5e-05s
+
+
+Solving 3-D cloud cloud
+
+Cloud: cloud injector: model1
+    Added 71 new parcels
+
+Cloud: cloud
+    Current number of parcels       = 71
+    Current mass in system          = 0.00774083
+    Linear momentum                 = (0 -3.79215e-06 0)
+   |Linear momentum|                = 3.79215e-06
+    Linear kinetic energy           = 9.28867e-10
+    model1:
+        number of parcels added     = 71
+        mass introduced             = 0.00774083
+
+smoothSolver:  Solving for Ux, Initial residual = 0, Final residual = 0, No Iterations 0
+smoothSolver:  Solving for Uy, Initial residual = 0, Final residual = 0, No Iterations 0
+smoothSolver:  Solving for Uz, Initial residual = 0, Final residual = 0, No Iterations 0
+GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 0, global = 0
+GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 0, global = 0, cumulative = 0
+ExecutionTime = 0.605657 s  ClockTime = 2 s
+
+End
+
+Finalising parallel run

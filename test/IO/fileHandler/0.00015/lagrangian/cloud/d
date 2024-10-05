@@ -1,0 +1,21 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       scalarField;
+    location    "0.00015/lagrangian/cloud";
+    object      d;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+71
+(兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?)
+
+// ************************************************************************* //

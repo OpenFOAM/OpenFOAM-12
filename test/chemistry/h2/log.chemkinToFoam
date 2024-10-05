@@ -1,0 +1,23 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : chemkinToFoam chemkin/chem.inp chemkin/therm.dat chemkin/transportProperties constant/reactions constant/speciesThermo
+Date   : Oct 04 2024
+Time   : 23:17:41
+Host   : "DESKTOP-KBPC6IC"
+PID    : 23645
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/test/chemistry/h2
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+End
+
