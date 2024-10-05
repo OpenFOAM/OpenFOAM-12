@@ -1,0 +1,51 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       decomposedBlockData;
+    location    "/home/as/openfoam/OpenFOAM-12/test/IO/fileHandler/machineA/fileHandler/processors4_0-1/0.00025/cloud:UTrans";
+    object      cloud:UTrans;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+// Processor0
+
+759
+(/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       volVectorField::Internal;
+    location    "0.00025";
+    object      cloud:UTrans;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 1 -1 0 0 0 0];
+
+value           uniform (0 0 0);
+
+
+// ************************************************************************* //
+)
+
+// Processor1
+
+68
+(dimensions      [1 1 -1 0 0 0 0];
+
+value           uniform (0 0 0);
+)

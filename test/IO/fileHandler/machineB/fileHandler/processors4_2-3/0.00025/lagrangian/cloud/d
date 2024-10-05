@@ -1,0 +1,49 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       decomposedBlockData;
+    location    "/home/as/openfoam/OpenFOAM-12/test/IO/fileHandler/machineB/fileHandler/processors4_2-3/0.00025/lagrangian/cloud/d";
+    object      d;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+// Processor0
+
+687
+(/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       scalarField;
+    location    "0.00025/lagrangian/cloud";
+    object      d;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+0
+
+
+// ************************************************************************* //
+)
+
+// Processor1
+
+574
+(
+71
+(兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?兊jｼt度?))

@@ -251,4 +251,17 @@ unset cleaned foamClean foamOldDirs
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [ "$BASH" ] && . $WM_PROJECT_DIR/etc/config.sh/bash_completion
 
+# OpenFOAM miljøoppsett
+source /home/as/openfoam/OpenFOAM-12/etc/bashrc
+
+# Sti til ThirdParty-bibliotekene
+export WM_THIRD_PARTY_DIR=$HOME/openfoam/ThirdParty-12
+
+# Oppdater PATH for ThirdParty-binarier
+export PATH=$WM_THIRD_PARTY_DIR/platforms/linux64Gcc/bin:$PATH
+
+# Oppdater CFLAGS og LDFLAGS for inkluderingsstier
+export CFLAGS="-I$WM_THIRD_PARTY_DIR/platforms/linux64Gcc/include $CFLAGS"
+export LDFLAGS="-L$WM_THIRD_PARTY_DIR/platforms/linux64Gcc/lib $LDFLAGS"
+
 #------------------------------------------------------------------------------
