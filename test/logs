@@ -1,0 +1,1277 @@
+./Allrun: 104: chemkinToFoam: not found
+./Allrun: 104: chemkinToFoam: not found
+./Allrun: 104: chemkinToFoam: not found
+./Allrun: 104: chemkinToFoam: not found
+./Allrun: 104: chemkinToFoam: not found
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+Using:
+  log      : log.boundaryFoam.8
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.8
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.8' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+Using:
+  log      : log.boundaryFoam.5
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.5
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.5' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+Using:
+  log      : log.boundaryFoam.2
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.2
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.2' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+Using:
+  log      : log.boundaryFoam.3
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.3
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.3' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+Using:
+  log      : log.boundaryFoam.7
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.7
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.7' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+Using:
+  log      : log.boundaryFoam.6
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.6
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.6' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+Using:
+  log      : log.boundaryFoam.4
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.4
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.4' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+End
+./Allrun: 104: blockMesh: not found
+/home/as/openfoam/OpenFOAM-12/bin/foamRunTutorials: 104: blockMesh: not found
+/home/as/openfoam/OpenFOAM-12/bin/foamRunTutorials: 104: blockMesh: not found
+/home/as/openfoam/OpenFOAM-12/bin/foamRunTutorials: 104: blockMesh: not found
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+./Allrun: 104: decomposePar: not found
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+./Allrun: 104: reconstructPar: not found
+./Allrun: 104: reconstructPar: not found
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+./Allrun: 104: reconstructPar: not found
+./Allrun: 104: decomposePar: not found
+./Allrun: 104: decomposePar: not found
+./Allrun: 104: blockMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: topoSet: not found
+./Allrun: 104: blockMesh: not found
+./Allrun: 104: foamPostProcess: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 104: foamToVTK: not found
+./Allrun: 104: decomposePar: not found
+./Allrun: 104: checkMesh: not found
+./Allrun: 104: reconstructPar: not found
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+./Allrun: 104: blockMesh: not found
+./Allrun: 104: foamDictionary: not found
+./Allrun: 104: foamDictionary: not found
+./Allrun: 104: foamDictionary: not found
+./Allrun: 104: foamDictionary: not found
+./Allrun: 104: foamPostProcess: not found
+./Allrun: 104: topoSet: not found
+./Allrun: 104: blockMesh: not found
+./Allrun: 104: chemkinToFoam: not found
+./Allrun: 104: chemkinToFoam: not found
+./Allrun: 104: chemkinToFoam: not found
+./Allrun: 104: chemkinToFoam: not found
+./Allrun: 104: chemkinToFoam: not found
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+Using:
+  log      : log.boundaryFoam.8
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.8
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.8' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+grep: log.boundaryFoam.8: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+Using:
+  log      : log.boundaryFoam.5
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.5
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.5' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+grep: log.boundaryFoam.5: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+Using:
+  log      : log.boundaryFoam.2
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.2
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.2' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+grep: log.boundaryFoam.2: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+Using:
+  log      : log.boundaryFoam.3
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.3
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.3' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+grep: log.boundaryFoam.3: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+Using:
+  log      : log.boundaryFoam.7
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.7
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.7' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+grep: log.boundaryFoam.7: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+Using:
+  log      : log.boundaryFoam.6
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.6
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.6' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+grep: log.boundaryFoam.6: No such file or directory
+End
+
+Usage: foamLog [OPTIONS] <log file>
+options:
+  -list             lists but does not extract
+  -n                create single column files with the extracted data only
+  -quiet            quiet operation
+  -localDB          only use the local database file
+  -help             print the usage
+
+foamLog - extracts xy files from OpenFOAM logs.
+
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+Using:
+  log      : log.boundaryFoam.4
+  database : foamLog.db
+  awk file : ./logs/foamLog.awk
+  files to : ./logs
+
+Executing: awk -f ./logs/foamLog.awk log.boundaryFoam.4
+awk: ./logs/foamLog.awk:10: fatal: cannot open file `log.boundaryFoam.4' for reading: No such file or directory
+
+Generated XY files for:
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+grep: log.boundaryFoam.4: No such file or directory
+End
+./Allrun: 104: blockMesh: not found
+/home/as/openfoam/OpenFOAM-12/bin/foamRunTutorials: 104: blockMesh: not found
+/home/as/openfoam/OpenFOAM-12/bin/foamRunTutorials: 104: blockMesh: not found
+/home/as/openfoam/OpenFOAM-12/bin/foamRunTutorials: 104: blockMesh: not found
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+./Allrun: 104: decomposePar: not found
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+./Allrun: 104: reconstructPar: not found
+./Allrun: 104: reconstructPar: not found
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+./Allrun: 104: reconstructPar: not found
+./Allrun: 104: decomposePar: not found
+./Allrun: 104: decomposePar: not found
+./Allrun: 104: blockMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: topoSet: not found
+./Allrun: 104: blockMesh: not found
+./Allrun: 104: foamPostProcess: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 104: zeroDimensionalMesh: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 102: foamDictionary: not found
+./Allrun: 104: foamToVTK: not found
+./Allrun: 104: decomposePar: not found
+./Allrun: 104: checkMesh: not found
+./Allrun: 104: reconstructPar: not found
+mpirun: Error: unknown option "-np"
+mpirun: Error: unknown option "-np"
+./Allrun: 104: blockMesh: not found
+./Allrun: 104: foamDictionary: not found
+./Allrun: 104: foamDictionary: not found
+./Allrun: 104: foamDictionary: not found
+./Allrun: 104: foamDictionary: not found
+./Allrun: 104: foamPostProcess: not found
+./Allrun: 104: topoSet: not found
+./Allrun: 104: blockMesh: not found

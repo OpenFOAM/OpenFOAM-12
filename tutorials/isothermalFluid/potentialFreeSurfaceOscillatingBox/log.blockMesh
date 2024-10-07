@@ -1,0 +1,78 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-4235bf6764bb
+Exec   : blockMesh
+Date   : Oct 06 2024
+Time   : 15:04:12
+Host   : "DESKTOP-KBPC6IC"
+PID    : 18081
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/isothermalFluid/potentialFreeSurfaceOscillatingBox
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Deleting polyMesh directory
+    "/home/as/openfoam/OpenFOAM-12/tutorials/isothermalFluid/potentialFreeSurfaceOscillatingBox/constant/polyMesh"
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+No non-linear block edges defined
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.012766 .. 0.12766
+        j : 0.125227 .. 0.0125227
+        k : 0.1
+
+No patch pairs to merge
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (10 1 0.1)
+  nPoints: 8442
+  nCells: 4000
+  nFaces: 16220
+  nInternalFaces: 7780
+----------------
+Patches
+----------------
+  patch 0 (start: 7780 size: 200) name: freeSurface
+  patch 1 (start: 7980 size: 240) name: walls
+  patch 2 (start: 8220 size: 0) name: floatingObject
+  patch 3 (start: 8220 size: 8000) name: frontAndBack
+
+End
+

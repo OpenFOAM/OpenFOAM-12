@@ -1,0 +1,59 @@
+Application blockMesh - case fileHandler: unconfirmed completion
+Application decomposePar - case fileHandler: unconfirmed completion
+Application -fileHandler - case fileHandler: unconfirmed completion
+Application reconstructPar - case fileHandler: unconfirmed completion
+Application decomposePar.uncollated - case fileHandler: unconfirmed completion
+Application -fileHandler.uncollated - case fileHandler: unconfirmed completion
+Application -fileHandler.collated - case fileHandler: unconfirmed completion
+Application reconstructPar.collated - case fileHandler: unconfirmed completion
+Application foamFormatConvert - case fileHandler: unconfirmed completion
+Application -fileHandler.multiCollated - case fileHandler: unconfirmed completion
+Application reconstructPar.multiCollated - case fileHandler: unconfirmed completion
+Application foamFormatConvert.uncollated - case fileHandler: unconfirmed completion
+Application -fileHandler.uncollated_from_multiCollated - case fileHandler: unconfirmed completion
+Application decomposePar.collated - case fileHandler: unconfirmed completion
+Application -fileHandler.distributed_multiCollated - case fileHandler/machineA/fileHandler: unconfirmed completion
+
+Application blockMesh - case boundaryLaunderSharma: unconfirmed completion
+Application blockMesh - case boundaryNonNewtonian: unconfirmed completion
+Application blockMesh - case boundaryWallFunctions: unconfirmed completion
+Application blockMesh - case boundaryWallFunctionsProfile: unconfirmed completion
+Application foamLog.2 - case boundaryWallFunctionsProfile: completed 
+Application foamLog.3 - case boundaryWallFunctionsProfile: completed 
+Application foamLog.4 - case boundaryWallFunctionsProfile: completed 
+Application foamLog.5 - case boundaryWallFunctionsProfile: completed 
+Application foamLog.6 - case boundaryWallFunctionsProfile: completed 
+Application foamLog.7 - case boundaryWallFunctionsProfile: completed 
+Application foamLog.8 - case boundaryWallFunctionsProfile: completed 
+
+Application chemkinToFoam - case gri: unconfirmed completion
+Application chemkinToFoam - case h2: unconfirmed completion
+Application chemkinToFoam - case ic8h18: unconfirmed completion
+Application chemkinToFoam - case ic8h18_TDAC: unconfirmed completion
+Application chemkinToFoam - case nc7h16: unconfirmed completion
+
+Application blockMesh - case cavity: unconfirmed completion
+Application checkMesh - case cavity: unconfirmed completion
+Application foamToVTK - case cavity: unconfirmed completion
+Application decomposePar - case cavity: unconfirmed completion
+Application checkMesh.par - case cavity: unconfirmed completion
+Application foamToEnsight.par - case cavity: unconfirmed completion
+Application reconstructPar - case cavity: unconfirmed completion
+
+Application zeroDimensionalMesh - case interfaceComposition/waterAndIsopropanolEvaporation: unconfirmed completion
+Application zeroDimensionalMesh - case interfaceComposition/waterEvaporation: unconfirmed completion
+Application zeroDimensionalMesh - case populationBalance/binaryBreakup: unconfirmed completion
+Application zeroDimensionalMesh - case populationBalance/breakup: unconfirmed completion
+Application zeroDimensionalMesh - case populationBalance/coalescence: unconfirmed completion
+Application foamPostProcess - case populationBalance/coalescence: unconfirmed completion
+Application zeroDimensionalMesh - case populationBalance/drift: unconfirmed completion
+Application blockMesh - case populationBalance/isothermalGrowth: unconfirmed completion
+Application topoSet - case populationBalance/isothermalGrowth: unconfirmed completion
+Application zeroDimensionalMesh - case populationBalance/negativeDrift: unconfirmed completion
+Application zeroDimensionalMesh - case populationBalance/simultaneousCoalescenceAndBreakup: unconfirmed completion
+Application zeroDimensionalMesh - case thermal/waterEvaporation: unconfirmed completion
+
+Application blockMesh - case channel: unconfirmed completion
+Application topoSet - case channel: unconfirmed completion
+Application foamPostProcess - case channel: unconfirmed completion
+

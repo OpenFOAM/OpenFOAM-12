@@ -251,4 +251,27 @@ unset cleaned foamClean foamOldDirs
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [ "$BASH" ] && . $WM_PROJECT_DIR/etc/config.sh/bash_completion
 
+# OpenFOAM setup
+export WM_PROJECT=OpenFOAM
+export WM_PROJECT_VERSION=12
+export FOAM_INST_DIR=$HOME/openfoam
+export WM_THIRD_PARTY_DIR=$FOAM_INST_DIR/ThirdParty-$WM_PROJECT_VERSION
+export WM_PROJECT_DIR=$FOAM_INST_DIR/$WM_PROJECT-$WM_PROJECT_VERSION
+export FOAM_RUN=$HOME/OpenFOAM/$USER-$WM_PROJECT_VERSION/run
+export FOAM_TUTORIALS=$WM_PROJECT_DIR/tutorials
+export WM_MPLIB=SYSTEMOPENMPI
+
+# Compiler settings
+export WM_COMPILER=Gcc
+export WM_COMPILER_TYPE=system
+export WM_ARCH_OPTION=64
+export WM_PRECISION_OPTION=DP
+export WM_LABEL_SIZE=32
+
+# Source OpenFOAM environment
+
+
+
+
 #------------------------------------------------------------------------------
+

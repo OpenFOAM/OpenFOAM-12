@@ -48,5 +48,12 @@ PIMPLE
     pRefValue       0;
 }
 
+PISO
+{
+    nCorrectors     2;
+    nNonOrthogonalCorrectors 0;
+    pRefCell        0;
+    pRefValue       0;
+}
 
 // ************************************************************************* //

@@ -1,0 +1,51 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-4235bf6764bb
+Exec   : topoSet
+Date   : Oct 06 2024
+Time   : 15:04:13
+Host   : "DESKTOP-KBPC6IC"
+PID    : 18082
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/isothermalFluid/potentialFreeSurfaceOscillatingBox
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading "topoSetDict"
+
+Time = 0s
+    mesh not changed.
+Created cellSet c0
+    Applying source boxToCell
+    Adding cells with center within boxes 1((0.1 0.8 -100) (0.4 100 100))
+    cellSet c0 now size 171
+Read set cellSet c0 with size 171
+    Inverting cellSet
+    cellSet c0 now size 3829
+Created faceSet f0FaceSet
+    Applying source patchToFace
+    Adding all faces of patch freeSurface ...
+    Found matching patch freeSurface with 200 faces.
+    faceSet f0FaceSet now size 200
+Read set faceSet f0FaceSet with size 200
+    Applying source boxToFace
+    Adding faces with centre within boxes 1((-100 0.9 -100) (0.2 100 100))
+    faceSet f0FaceSet now size 14
+Created faceZoneSet f0
+    Applying source setToFaceZone
+    Adding all faces from faceSet f0FaceSet ...
+    faceZoneSet f0 now size 14
+End
+

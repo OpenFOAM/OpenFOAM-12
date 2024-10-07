@@ -1,0 +1,30 @@
+# vtk DataFile Version 2.0
+floatingObject
+BINARY
+DATASET POLYDATA
+POINTS 0 float
+
+POLYGONS 0 0
+
+CELL_DATA 0
+FIELD attributes 5
+patchID 1 0 float
+
+T 1 0 float
+
+p_rgh 1 0 float
+
+p 1 0 float
+
+U 3 0 float
+
+POINT_DATA  0
+FIELD attributes 4
+T 1 0 float
+
+p_rgh 1 0 float
+
+p 1 0 float
+
+U 3 0 float
+
