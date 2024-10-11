@@ -1,0 +1,277 @@
+Expanding #calc at line 18 in file "testCalc"
+Creating new library in "dynamicCode/_2841bb2d9b8d6f7202b9aae579097c7a6e751d68/platforms/linux64GccDPInt32Opt/lib/libcodeStream_2841bb2d9b8d6f7202b9aae579097c7a6e751d68.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2841bb2d9b8d6f7202b9aae579097c7a6e751d68/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2841bb2d9b8d6f7202b9aae579097c7a6e751d68"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2841bb2d9b8d6f7202b9aae579097c7a6e751d68
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2841bb2d9b8d6f7202b9aae579097c7a6e751d68'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2841bb2d9b8d6f7202b9aae579097c7a6e751d68/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_2841bb2d9b8d6f7202b9aae579097c7a6e751d68.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2841bb2d9b8d6f7202b9aae579097c7a6e751d68'
+Expanding #calc at line 26 in file "testCalc"
+Creating new library in "dynamicCode/_637f22f4ce228ea0b28168ef91f086279686f001/platforms/linux64GccDPInt32Opt/lib/libcodeStream_637f22f4ce228ea0b28168ef91f086279686f001.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_637f22f4ce228ea0b28168ef91f086279686f001/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_637f22f4ce228ea0b28168ef91f086279686f001"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_637f22f4ce228ea0b28168ef91f086279686f001
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_637f22f4ce228ea0b28168ef91f086279686f001'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_637f22f4ce228ea0b28168ef91f086279686f001/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_637f22f4ce228ea0b28168ef91f086279686f001.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_637f22f4ce228ea0b28168ef91f086279686f001'
+Expanding #calc at line 30 in file "testCalc"
+Creating new library in "dynamicCode/_6d4eebf8a2af0efb77d59581bd408fddc6622f56/platforms/linux64GccDPInt32Opt/lib/libcodeStream_6d4eebf8a2af0efb77d59581bd408fddc6622f56.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6d4eebf8a2af0efb77d59581bd408fddc6622f56/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6d4eebf8a2af0efb77d59581bd408fddc6622f56"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6d4eebf8a2af0efb77d59581bd408fddc6622f56
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6d4eebf8a2af0efb77d59581bd408fddc6622f56'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6d4eebf8a2af0efb77d59581bd408fddc6622f56/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_6d4eebf8a2af0efb77d59581bd408fddc6622f56.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6d4eebf8a2af0efb77d59581bd408fddc6622f56'
+Expanding #calc at line 37 in file "testCalc"
+Creating new library in "dynamicCode/_bc06daf1d48ba48b4a546fe11fa60770fef058df/platforms/linux64GccDPInt32Opt/lib/libcodeStream_bc06daf1d48ba48b4a546fe11fa60770fef058df.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_bc06daf1d48ba48b4a546fe11fa60770fef058df/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_bc06daf1d48ba48b4a546fe11fa60770fef058df"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_bc06daf1d48ba48b4a546fe11fa60770fef058df
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_bc06daf1d48ba48b4a546fe11fa60770fef058df'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_bc06daf1d48ba48b4a546fe11fa60770fef058df/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_bc06daf1d48ba48b4a546fe11fa60770fef058df.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_bc06daf1d48ba48b4a546fe11fa60770fef058df'
+Expanding #calc at line 42 in file "testCalc/f"
+Creating new library in "dynamicCode/_7575f9a59bef9e30a43ac9e947c534663973c2f6/platforms/linux64GccDPInt32Opt/lib/libcodeStream_7575f9a59bef9e30a43ac9e947c534663973c2f6.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_7575f9a59bef9e30a43ac9e947c534663973c2f6/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_7575f9a59bef9e30a43ac9e947c534663973c2f6"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_7575f9a59bef9e30a43ac9e947c534663973c2f6
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_7575f9a59bef9e30a43ac9e947c534663973c2f6'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_7575f9a59bef9e30a43ac9e947c534663973c2f6/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_7575f9a59bef9e30a43ac9e947c534663973c2f6.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_7575f9a59bef9e30a43ac9e947c534663973c2f6'
+Expanding #calc at line 46 in file "testCalc"
+Creating new library in "dynamicCode/_5feceb7055df4532bde49e0a05b871a2f04832d7/platforms/linux64GccDPInt32Opt/lib/libcodeStream_5feceb7055df4532bde49e0a05b871a2f04832d7.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_5feceb7055df4532bde49e0a05b871a2f04832d7/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_5feceb7055df4532bde49e0a05b871a2f04832d7"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_5feceb7055df4532bde49e0a05b871a2f04832d7
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_5feceb7055df4532bde49e0a05b871a2f04832d7'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_5feceb7055df4532bde49e0a05b871a2f04832d7/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_5feceb7055df4532bde49e0a05b871a2f04832d7.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_5feceb7055df4532bde49e0a05b871a2f04832d7'
+Expanding #calc at line 49 in file "testCalc"
+Creating new library in "dynamicCode/_43a7b181f6b5110421b66a8caf4d63b3ef48a2f4/platforms/linux64GccDPInt32Opt/lib/libcodeStream_43a7b181f6b5110421b66a8caf4d63b3ef48a2f4.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_43a7b181f6b5110421b66a8caf4d63b3ef48a2f4/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_43a7b181f6b5110421b66a8caf4d63b3ef48a2f4"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_43a7b181f6b5110421b66a8caf4d63b3ef48a2f4
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_43a7b181f6b5110421b66a8caf4d63b3ef48a2f4'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_43a7b181f6b5110421b66a8caf4d63b3ef48a2f4/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_43a7b181f6b5110421b66a8caf4d63b3ef48a2f4.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_43a7b181f6b5110421b66a8caf4d63b3ef48a2f4'
+Expanding #calc at line 55 in file "testCalc"
+Creating new library in "dynamicCode/_09d2591f4dbc6ae355288a96a01713be9c8b3096/platforms/linux64GccDPInt32Opt/lib/libcodeStream_09d2591f4dbc6ae355288a96a01713be9c8b3096.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_09d2591f4dbc6ae355288a96a01713be9c8b3096/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_09d2591f4dbc6ae355288a96a01713be9c8b3096"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_09d2591f4dbc6ae355288a96a01713be9c8b3096
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_09d2591f4dbc6ae355288a96a01713be9c8b3096'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_09d2591f4dbc6ae355288a96a01713be9c8b3096/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_09d2591f4dbc6ae355288a96a01713be9c8b3096.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_09d2591f4dbc6ae355288a96a01713be9c8b3096'
+Expanding #calc at line 58 in file "testCalc"
+Creating new library in "dynamicCode/_786eb211f300c595053ed950024d5a4f8ceba20f/platforms/linux64GccDPInt32Opt/lib/libcodeStream_786eb211f300c595053ed950024d5a4f8ceba20f.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_786eb211f300c595053ed950024d5a4f8ceba20f/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_786eb211f300c595053ed950024d5a4f8ceba20f"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_786eb211f300c595053ed950024d5a4f8ceba20f
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_786eb211f300c595053ed950024d5a4f8ceba20f'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_786eb211f300c595053ed950024d5a4f8ceba20f/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_786eb211f300c595053ed950024d5a4f8ceba20f.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_786eb211f300c595053ed950024d5a4f8ceba20f'
+Expanding #calc at line 59 in file "testCalc"
+Creating new library in "dynamicCode/_d426355291243f84a5ab97be71f974cda4254588/platforms/linux64GccDPInt32Opt/lib/libcodeStream_d426355291243f84a5ab97be71f974cda4254588.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d426355291243f84a5ab97be71f974cda4254588/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d426355291243f84a5ab97be71f974cda4254588"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d426355291243f84a5ab97be71f974cda4254588
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d426355291243f84a5ab97be71f974cda4254588'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d426355291243f84a5ab97be71f974cda4254588/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_d426355291243f84a5ab97be71f974cda4254588.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d426355291243f84a5ab97be71f974cda4254588'
+Expanding #calc at line 63 in file "testCalc"
+Creating new library in "dynamicCode/_69b617b0afaf720b954f78cd2ee3d35cca113226/platforms/linux64GccDPInt32Opt/lib/libcodeStream_69b617b0afaf720b954f78cd2ee3d35cca113226.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_69b617b0afaf720b954f78cd2ee3d35cca113226/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_69b617b0afaf720b954f78cd2ee3d35cca113226"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_69b617b0afaf720b954f78cd2ee3d35cca113226
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_69b617b0afaf720b954f78cd2ee3d35cca113226'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_69b617b0afaf720b954f78cd2ee3d35cca113226/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_69b617b0afaf720b954f78cd2ee3d35cca113226.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_69b617b0afaf720b954f78cd2ee3d35cca113226'
+Expanding #calc at line 64 in file "testCalc"
+Creating new library in "dynamicCode/_8669f3ed7d6300047a72e53ea13146e5bfa41dec/platforms/linux64GccDPInt32Opt/lib/libcodeStream_8669f3ed7d6300047a72e53ea13146e5bfa41dec.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_8669f3ed7d6300047a72e53ea13146e5bfa41dec/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_8669f3ed7d6300047a72e53ea13146e5bfa41dec"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_8669f3ed7d6300047a72e53ea13146e5bfa41dec
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_8669f3ed7d6300047a72e53ea13146e5bfa41dec'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_8669f3ed7d6300047a72e53ea13146e5bfa41dec/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_8669f3ed7d6300047a72e53ea13146e5bfa41dec.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_8669f3ed7d6300047a72e53ea13146e5bfa41dec'
+Expanding #calc at line 72 in file "testCalc"
+Creating new library in "dynamicCode/_d1214d5181c6ceca4ac1852a6dcb43d3242b9b6a/platforms/linux64GccDPInt32Opt/lib/libcodeStream_d1214d5181c6ceca4ac1852a6dcb43d3242b9b6a.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d1214d5181c6ceca4ac1852a6dcb43d3242b9b6a/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d1214d5181c6ceca4ac1852a6dcb43d3242b9b6a"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d1214d5181c6ceca4ac1852a6dcb43d3242b9b6a
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d1214d5181c6ceca4ac1852a6dcb43d3242b9b6a'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d1214d5181c6ceca4ac1852a6dcb43d3242b9b6a/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_d1214d5181c6ceca4ac1852a6dcb43d3242b9b6a.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d1214d5181c6ceca4ac1852a6dcb43d3242b9b6a'
+Expanding #calc at line 88 in file "testCalc"
+Creating new library in "dynamicCode/_9dee15611709ee4396de72f78096ffb2684cf38c/platforms/linux64GccDPInt32Opt/lib/libcodeStream_9dee15611709ee4396de72f78096ffb2684cf38c.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9dee15611709ee4396de72f78096ffb2684cf38c/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9dee15611709ee4396de72f78096ffb2684cf38c"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9dee15611709ee4396de72f78096ffb2684cf38c
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9dee15611709ee4396de72f78096ffb2684cf38c'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9dee15611709ee4396de72f78096ffb2684cf38c/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_9dee15611709ee4396de72f78096ffb2684cf38c.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9dee15611709ee4396de72f78096ffb2684cf38c'
+Expanding #calc at line 92 in file "testCalc"
+Creating new library in "dynamicCode/_d466dab56357ae6039b013bc7acf0903991705ef/platforms/linux64GccDPInt32Opt/lib/libcodeStream_d466dab56357ae6039b013bc7acf0903991705ef.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d466dab56357ae6039b013bc7acf0903991705ef/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d466dab56357ae6039b013bc7acf0903991705ef"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d466dab56357ae6039b013bc7acf0903991705ef
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d466dab56357ae6039b013bc7acf0903991705ef'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d466dab56357ae6039b013bc7acf0903991705ef/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_d466dab56357ae6039b013bc7acf0903991705ef.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d466dab56357ae6039b013bc7acf0903991705ef'
+Expanding #calc at line 93 in file "testCalc"
+Creating new library in "dynamicCode/_530ba2b183e8abbd4ee52d73a65da0f3d1cc5fe4/platforms/linux64GccDPInt32Opt/lib/libcodeStream_530ba2b183e8abbd4ee52d73a65da0f3d1cc5fe4.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_530ba2b183e8abbd4ee52d73a65da0f3d1cc5fe4/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_530ba2b183e8abbd4ee52d73a65da0f3d1cc5fe4"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_530ba2b183e8abbd4ee52d73a65da0f3d1cc5fe4
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_530ba2b183e8abbd4ee52d73a65da0f3d1cc5fe4'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_530ba2b183e8abbd4ee52d73a65da0f3d1cc5fe4/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_530ba2b183e8abbd4ee52d73a65da0f3d1cc5fe4.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_530ba2b183e8abbd4ee52d73a65da0f3d1cc5fe4'
+Expanding #calc at line 97 in file "testCalc"
+Creating new library in "dynamicCode/_2674e0d8f87f8c2a43403816fc68bc84f40ac0ce/platforms/linux64GccDPInt32Opt/lib/libcodeStream_2674e0d8f87f8c2a43403816fc68bc84f40ac0ce.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2674e0d8f87f8c2a43403816fc68bc84f40ac0ce/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2674e0d8f87f8c2a43403816fc68bc84f40ac0ce"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2674e0d8f87f8c2a43403816fc68bc84f40ac0ce
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2674e0d8f87f8c2a43403816fc68bc84f40ac0ce'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2674e0d8f87f8c2a43403816fc68bc84f40ac0ce/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_2674e0d8f87f8c2a43403816fc68bc84f40ac0ce.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_2674e0d8f87f8c2a43403816fc68bc84f40ac0ce'
+Expanding #calc at line 101 in file "testCalc"
+Creating new library in "dynamicCode/_9492c92a7fd4a8c5af1b328b2121069902c938aa/platforms/linux64GccDPInt32Opt/lib/libcodeStream_9492c92a7fd4a8c5af1b328b2121069902c938aa.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9492c92a7fd4a8c5af1b328b2121069902c938aa/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9492c92a7fd4a8c5af1b328b2121069902c938aa"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9492c92a7fd4a8c5af1b328b2121069902c938aa
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9492c92a7fd4a8c5af1b328b2121069902c938aa'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9492c92a7fd4a8c5af1b328b2121069902c938aa/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_9492c92a7fd4a8c5af1b328b2121069902c938aa.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_9492c92a7fd4a8c5af1b328b2121069902c938aa'
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+//
+// "testCalc"
+//
+FoamFile
+{
+    format          ascii;
+    class           dictionary;
+    object          testCalc;
+}
+
+a               1.1;
+
+b               3.2;
+
+c               0.34375;
+
+d
+{
+    b               4.8;
+}
+
+e               0.229167;
+
+f
+{
+    g               0.229167;
+}
+
+s               "field";
+
+fieldName       "fieldName";
+
+time            100;
+
+fileName        "movingBox_100.obj";
+
+angleOfAttack   5;
+
+angle           -0.0872665;
+
+liftDir         ( -0.0871558 0 0.996195 );
+
+dragDir         ( 0.996195 0 0.0871558 );
+
+magU            10.4159;
+
+k               0.406837;
+
+maxAngle        30;
+
+nAngles         7;
+
+Us              7 ( ( 10.2 2.1 0.2 ) ( 10.1786 2.1 -0.68975 ) ( 10.0798 2.1 -1.57425 ) ( 9.90421 2.1 -2.44677 ) ( 9.65327 2.1 -3.30067 ) ( 9.32886 2.1 -4.12944 ) ( 8.93346 2.1 -4.92679 ) );
+
+listU           ( ( 1.1 2.1 1.1 ) ( 2.1 3.2 4.1 ) ( 4.3 5.3 0 ) );
+
+magU1           5.60892;
+
+magUs           3 ( 2.61343 5.60892 6.82495 );
+
+magSqrU1        31.46;
+
+namedU          ( U0 ( 1.1 2.1 1.1 ) U1 ( 2.1 3.2 4.1 ) U2 ( 4.3 5.3 0 ) );
+
+magU2           6.82495;
+
+listU2          List<vector> 3((1.1 2.1 1.1) (2.1 3.2 4.1) (4.3 5.3 0));
+
+magU21          5.60892;
+
+
+// ************************************************************************* //

@@ -1,0 +1,83 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : blockMesh
+Date   : Oct 10 2024
+Time   : 23:10:32
+Host   : "DESKTOP-KBPC6IC"
+PID    : 27447
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctions
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+No non-linear block edges defined
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 1
+		Number of boundary faces : 10
+		Number of defined boundary faces : 10
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.05
+    Block 0 cell size :
+        i : 0.005
+        j : 0.00125
+        k : 0.005
+    Block 1 cell size :
+        i : 0.005
+        j : 0.00125 .. 0.00125
+        k : 0.005
+
+No patch pairs to merge
+
+Detected cyclic patches; ordering boundary faces
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 -0.05 0) (0.005 0.05 0.005)
+  nPoints: 324
+  nCells: 80
+  nFaces: 401
+  nInternalFaces: 79
+----------------
+Patches
+----------------
+  patch 0 (start: 79 size: 1) name: lowerWall
+  patch 1 (start: 80 size: 1) name: upperWall
+  patch 2 (start: 81 size: 80) name: front
+  patch 3 (start: 161 size: 80) name: back
+  patch 4 (start: 241 size: 160) name: defaultFaces
+
+End
+

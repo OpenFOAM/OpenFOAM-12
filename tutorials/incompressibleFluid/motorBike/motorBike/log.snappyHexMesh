@@ -1,0 +1,63 @@
+[DESKTOP-KBPC6IC:111262] *** Process received signal ***
+[DESKTOP-KBPC6IC:111262] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111262] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111262] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111262] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7f03f9aa2320]
+[DESKTOP-KBPC6IC:111262] *** End of error message ***
+[DESKTOP-KBPC6IC:111263] *** Process received signal ***
+[DESKTOP-KBPC6IC:111263] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111263] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111263] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111263] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7ff4837da320]
+[DESKTOP-KBPC6IC:111263] *** End of error message ***
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+[DESKTOP-KBPC6IC:111264] *** Process received signal ***
+[DESKTOP-KBPC6IC:111264] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111264] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111264] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111264] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7f9383790320]
+[DESKTOP-KBPC6IC:111264] *** End of error message ***
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+[DESKTOP-KBPC6IC:111265] *** Process received signal ***
+[DESKTOP-KBPC6IC:111265] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111265] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111265] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111265] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7f0d61881320]
+[DESKTOP-KBPC6IC:111265] *** End of error message ***
+[DESKTOP-KBPC6IC:111266] *** Process received signal ***
+[DESKTOP-KBPC6IC:111266] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111266] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111266] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111266] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7f331d4c5320]
+[DESKTOP-KBPC6IC:111266] *** End of error message ***
+[DESKTOP-KBPC6IC:111267] *** Process received signal ***
+[DESKTOP-KBPC6IC:111267] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111267] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111267] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111267] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7facab709320]
+[DESKTOP-KBPC6IC:111267] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node DESKTOP-KBPC6IC exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

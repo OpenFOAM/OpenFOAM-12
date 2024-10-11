@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : topoSet
+Date   : Oct 10 2024
+Time   : 23:15:34
+Host   : "DESKTOP-KBPC6IC"
+PID    : 4641
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/test/multiphaseEuler/populationBalance/isothermalGrowth
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading "topoSetDict"
+
+Time = 0s
+    mesh not changed.
+Created cellSet injection
+    Applying source boxToCell
+    Adding cells with center within boxes 1((0 0.04 0) (0.1 0.05 0.1))
+    cellSet injection now size 1
+Created cellZoneSet injection
+    Applying source setToCellZone
+    Adding all cells from cellSet injection ...
+    cellZoneSet injection now size 1
+End
+

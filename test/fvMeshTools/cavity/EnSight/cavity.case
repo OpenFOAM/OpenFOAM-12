@@ -1,0 +1,17 @@
+FORMAT
+type: ensight gold
+
+GEOMETRY
+model:        1     cavity.****.mesh
+
+VARIABLE
+scalar per element:            1       p               cavity.****.p
+vector per element:            1       U               cavity.****.U
+
+TIME
+time set:                      1
+number of steps:               5
+filename start number:         0
+filename increment:            1
+time values:
+0.00000e+00  5.00000e-03  1.00000e-02  1.50000e-02  2.00000e-02  

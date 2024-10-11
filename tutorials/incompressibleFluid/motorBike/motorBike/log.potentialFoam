@@ -1,0 +1,73 @@
+[DESKTOP-KBPC6IC:111302] *** Process received signal ***
+[DESKTOP-KBPC6IC:111302] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111302] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111302] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111302] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7f9b880b2320]
+[DESKTOP-KBPC6IC:111302] *** End of error message ***
+[DESKTOP-KBPC6IC:111303] *** Process received signal ***
+[DESKTOP-KBPC6IC:111303] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111303] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111303] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111303] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7f9ca1141320]
+[DESKTOP-KBPC6IC:111303] *** End of error message ***
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+[DESKTOP-KBPC6IC:111300] *** Process received signal ***
+[DESKTOP-KBPC6IC:111300] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111300] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111300] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111300] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7f4fa7e6b320]
+[DESKTOP-KBPC6IC:111300] *** End of error message ***
+[DESKTOP-KBPC6IC:111305] *** Process received signal ***
+[DESKTOP-KBPC6IC:111305] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111305] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111305] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111305] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7fa15a647320]
+[DESKTOP-KBPC6IC:111305] *** End of error message ***
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+[DESKTOP-KBPC6IC:111304] *** Process received signal ***
+[DESKTOP-KBPC6IC:111304] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111304] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111304] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111304] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7fe23cea8320]
+[DESKTOP-KBPC6IC:111304] *** End of error message ***
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+The user requested CUDA support with the --mca mpi_cuda_support 1 flag
+but the library was not compiled with any support.
+--------------------------------------------------------------------------
+[DESKTOP-KBPC6IC:111306] *** Process received signal ***
+[DESKTOP-KBPC6IC:111301] *** Process received signal ***
+[DESKTOP-KBPC6IC:111301] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111301] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111301] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111301] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7f3ce54d0320]
+[DESKTOP-KBPC6IC:111301] *** End of error message ***
+[DESKTOP-KBPC6IC:111306] Signal: Segmentation fault (11)
+[DESKTOP-KBPC6IC:111306] Signal code: Address not mapped (1)
+[DESKTOP-KBPC6IC:111306] Failing at address: (nil)
+[DESKTOP-KBPC6IC:111306] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45320)[0x7fd00710b320]
+[DESKTOP-KBPC6IC:111306] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node DESKTOP-KBPC6IC exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

@@ -1,0 +1,65 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : renumberMesh -parallel -noFields -overwrite
+Date   : Oct 11 2024
+Time   : 04:52:24
+Host   : "DESKTOP-KBPC6IC"
+PID    : 3074
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller
+nProcs : 8
+Slaves : 
+7
+(
+"DESKTOP-KBPC6IC.3075"
+"DESKTOP-KBPC6IC.3076"
+"DESKTOP-KBPC6IC.3077"
+"DESKTOP-KBPC6IC.3078"
+"DESKTOP-KBPC6IC.3079"
+"DESKTOP-KBPC6IC.3080"
+"DESKTOP-KBPC6IC.3081"
+)
+
+Pstream initialised with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function static Foam::instantList Foam::timeSelector::select0(Foam::Time&, const Foam::argList&)
+    in file db/Time/timeSelector.C at line 269
+    No time specified or available, selecting 'constant'
+Create mesh for time = constant
+
+Mesh size: 2880
+Before renumbering :
+    band           : 60
+    profile        : 146632
+
+Using default renumberMethod.
+
+Selecting renumberMethod CuthillMcKee
+
+
+After renumbering :
+    band           : 37
+    profile        : 78704
+
+Writing mesh to "constant"
+
+End
+
+Finalising parallel run

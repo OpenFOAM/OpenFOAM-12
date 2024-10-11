@@ -1,0 +1,165 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : snappyHexMesh -parallel -overwrite
+Date   : Oct 11 2024
+Time   : 04:52:17
+Host   : "DESKTOP-KBPC6IC"
+PID    : 2975
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller
+nProcs : 8
+Slaves : 
+7
+(
+"DESKTOP-KBPC6IC.2976"
+"DESKTOP-KBPC6IC.2977"
+"DESKTOP-KBPC6IC.2978"
+"DESKTOP-KBPC6IC.2979"
+"DESKTOP-KBPC6IC.2980"
+"DESKTOP-KBPC6IC.2981"
+"DESKTOP-KBPC6IC.2982"
+)
+
+Pstream initialised with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Read mesh in = 0.019461 s
+Reading "snappyHexMeshDict"
+
+
+Overall mesh bounding box  : (-0.3 -0.81 -0.3) (0.3 0.21 0.3)
+Relative tolerance         : 1e-06
+Absolute matching distance : 1.3268e-06
+
+Reading refinement surfaces...
+Read refinement surfaces in = 0.306365 s
+
+Reading refinement regions...
+Refinement level 4 for all cells inside innerCylinder
+Refinement level 3 for all cells inside middleCylinder
+[5] 
+[5] 
+[5] --> FOAM FATAL IO ERROR: 
+[5] Could not open "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/constant/geometry/propeller-innerCylinder.eMesh"
+[5] 
+[5] file: IOstream/castellatedMeshControls/features from line 0 to line 0.
+[5] 
+[5]     From function void Foam::refinementFeatures::read(const Foam::objectRegistry&, const Foam::PtrList<Foam::dictionary>&)
+[5]     in file refinementFeatures/refinementFeatures.C at line 95.
+[5] 
+FOAM parallel run exiting
+Read refinement regions in = 0.001286 s
+[5] 
+
+Reading features...
+[0] 
+[0] 
+[0] --> FOAM FATAL IO ERROR: 
+[0] Could not open "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/constant/geometry/propeller-innerCylinder.eMesh"
+[0] 
+[0] file: /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/system/snappyHexMeshDict/castellatedMeshControls/features from line 141 to line 142.
+[0] 
+[0]     From function void Foam::refinementFeatures::read(const Foam::objectRegistry&, const Foam::PtrList<Foam::dictionary>&)
+[0]     in file refinementFeatures/refinementFeatures.C at line 95.
+[6] [7] 
+
+[6] 
+[6] --> FOAM FATAL IO ERROR: 
+[6] [7] 
+[7] --> FOAM FATAL IO ERROR: 
+[7] Could not open "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/constant/geometry/propeller-innerCylinder.eMesh"
+[7] 
+[7] Could not open "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/constant/geometry/propeller-innerCylinder.eMesh"
+[6] 
+[6] file: IOstream/castellatedMeshControls/features from line 0 to line 0.
+file: IOstream/castellatedMeshControls/features from line 0 to line 0.
+[7] 
+[7] [6] 
+[6]     From function void Foam::refinementFeatures::read(const Foam::objectRegistry&, const Foam::PtrList<Foam::dictionary>&)
+[6]     in file refinementFeatures/refinementFeatures.C at line 95.
+    From function void Foam::refinementFeatures::read(const Foam::objectRegistry&, const Foam::PtrList<Foam::dictionary>&)
+[7]     in file refinementFeatures/refinementFeatures.C at line 95.
+[7] [6] 
+FOAM parallel run exiting
+[6] 
+
+FOAM parallel run exiting
+[7] 
+[0] 
+FOAM parallel run exiting
+[0] 
+[1] 
+[1] 
+[4] 
+[4] 
+[4] --> FOAM FATAL IO ERROR: 
+[4] Could not open "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/constant/geometry/propeller-innerCylinder.eMesh"[1] --> FOAM FATAL IO ERROR: 
+[1] Could not open "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/constant/geometry/propeller-innerCylinder.eMesh"
+[1] 
+[1] file: IOstream/castellatedMeshControls/features from line 0
+[4] 
+[4] file: IOstream/castellatedMeshControls/features from line 0 to line 0.
+[4] 
+ to line 0.
+[1] 
+[1]     From function void Foam::refinementFeatures::read(const Foam::objectRegistry&, const Foam::PtrList<Foam::dictionary>&)
+[1]     in file refinementFeatures/refinementFeatures.C at line 95.[4]     From function void Foam::refinementFeatures::read(const Foam::objectRegistry&, const Foam::PtrList<Foam::dictionary>&)
+[4]     in file refinementFeatures/refinementFeatures.C at line 95.
+[4] 
+FOAM parallel run exiting
+[4] 
+
+[1] 
+FOAM parallel run exiting
+[1] 
+[3] 
+[3] 
+[3] --> FOAM FATAL IO ERROR: 
+[3] Could not open "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/constant/geometry/propeller-innerCylinder.eMesh"
+[3] 
+[3] file: IOstream/castellatedMeshControls/features from line 0 to line 0.
+[3] 
+[3]     From function void Foam::refinementFeatures::read(const Foam::objectRegistry&, const Foam::PtrList<Foam::dictionary>&)
+[3]     in file refinementFeatures/refinementFeatures.C at line 95.
+[3] 
+FOAM parallel run exiting
+[3] 
+[2] 
+[2] 
+[2] --> FOAM FATAL IO ERROR: 
+[2] Could not open "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/constant/geometry/propeller-innerCylinder.eMesh"
+[2] 
+[2] file: IOstream/castellatedMeshControls/features from line 0 to line 0.
+[2] 
+[2]     From function void Foam::refinementFeatures::read(const Foam::objectRegistry&, const Foam::PtrList<Foam::dictionary>&)
+[2]     in file refinementFeatures/refinementFeatures.C at line 95.
+[2] 
+FOAM parallel run exiting
+[2] 
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 SPLIT FROM 0
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[DESKTOP-KBPC6IC:02968] 7 more processes have sent help message help-mpi-api.txt / mpi-abort
+[DESKTOP-KBPC6IC:02968] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

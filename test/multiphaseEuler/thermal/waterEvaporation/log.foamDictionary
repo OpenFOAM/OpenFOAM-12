@@ -1,0 +1,24 @@
+New entry thermo          eConst;
+
+New entry energy          sensibleInternalEnergy;
+
+New entry thermo          eConst;
+
+New entry energy          sensibleInternalEnergy;
+
+New entry thermo          hConst;
+
+New entry energy          sensibleEnthalpy;
+
+New entry thermo          hConst;
+
+New entry energy          sensibleEnthalpy;
+
+New entry thermo          eConst;
+
+New entry energy          sensibleInternalEnergy;
+
+New entry thermo          hConst;
+
+New entry energy          sensibleEnthalpy;
+

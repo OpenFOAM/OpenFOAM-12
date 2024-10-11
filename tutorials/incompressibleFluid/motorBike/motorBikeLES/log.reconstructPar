@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : reconstructPar
+Date   : Oct 11 2024
+Time   : 14:53:30
+Host   : "DESKTOP-KBPC6IC"
+PID    : 111386
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBikeLES
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function static Foam::instantList Foam::timeSelector::select0(Foam::Time&, const Foam::argList&)
+    in file db/Time/timeSelector.C at line 269
+    No time specified or available, selecting 'constant'
+Time = constant
+
+Reconstructing FV fields
+
+    (no FV fields)
+
+Reconstructing point fields
+
+    (no point fields)
+
+End
+

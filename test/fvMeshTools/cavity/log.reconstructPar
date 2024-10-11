@@ -1,0 +1,117 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : reconstructPar
+Date   : Oct 10 2024
+Time   : 23:13:17
+Host   : "DESKTOP-KBPC6IC"
+PID    : 3887
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reconstructing meshes
+
+    Merging mesh 0 with 1
+    Merging mesh 0 with 2
+
+Time = 0.005s
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        p
+
+    Reconstructing volVectorFields
+
+        U
+
+Reconstructing point fields
+
+    Reconstructing pointVectorFields
+
+        pointDisplacement
+
+Time = 0.01s
+
+Reconstructing meshes
+
+    Merging mesh 0 with 1
+    Merging mesh 0 with 2
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        p
+
+    Reconstructing volVectorFields
+
+        U
+
+Reconstructing point fields
+
+    Reconstructing pointVectorFields
+
+        pointDisplacement
+
+Time = 0.015s
+
+Reconstructing meshes
+
+    Merging mesh 0 with 1
+    Merging mesh 0 with 2
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        p
+
+    Reconstructing volVectorFields
+
+        U
+
+Reconstructing point fields
+
+    Reconstructing pointVectorFields
+
+        pointDisplacement
+
+Time = 0.02s
+
+Reconstructing meshes
+
+    Merging mesh 0 with 1
+    Merging mesh 0 with 2
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        p
+
+    Reconstructing volVectorFields
+
+        U
+
+Reconstructing point fields
+
+    Reconstructing pointVectorFields
+
+        pointDisplacement
+
+End
+

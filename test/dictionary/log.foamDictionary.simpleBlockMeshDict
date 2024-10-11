@@ -1,0 +1,71 @@
+Expanding #calc at line 21 in file "simpleBlockMeshDict"
+Creating new library in "dynamicCode/_28efee21b52a9ce8e16180455950ff38267ee382/platforms/linux64GccDPInt32Opt/lib/libcodeStream_28efee21b52a9ce8e16180455950ff38267ee382.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_28efee21b52a9ce8e16180455950ff38267ee382/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_28efee21b52a9ce8e16180455950ff38267ee382"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_28efee21b52a9ce8e16180455950ff38267ee382
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_28efee21b52a9ce8e16180455950ff38267ee382'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_28efee21b52a9ce8e16180455950ff38267ee382/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_28efee21b52a9ce8e16180455950ff38267ee382.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_28efee21b52a9ce8e16180455950ff38267ee382'
+Expanding #calc at line 26 in file "simpleBlockMeshDict"
+Creating new library in "dynamicCode/_6c4844c529c68d41a41c7a902fe264138ac5d7c4/platforms/linux64GccDPInt32Opt/lib/libcodeStream_6c4844c529c68d41a41c7a902fe264138ac5d7c4.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6c4844c529c68d41a41c7a902fe264138ac5d7c4/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6c4844c529c68d41a41c7a902fe264138ac5d7c4"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6c4844c529c68d41a41c7a902fe264138ac5d7c4
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6c4844c529c68d41a41c7a902fe264138ac5d7c4'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6c4844c529c68d41a41c7a902fe264138ac5d7c4/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_6c4844c529c68d41a41c7a902fe264138ac5d7c4.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_6c4844c529c68d41a41c7a902fe264138ac5d7c4'
+Expanding #calc at line 30 in file "simpleBlockMeshDict"
+Creating new library in "dynamicCode/_d52330c8b2273eab455c983a4722ce47edc48419/platforms/linux64GccDPInt32Opt/lib/libcodeStream_d52330c8b2273eab455c983a4722ce47edc48419.so"
+"/home/as/openfoam/OpenFOAM-12/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d52330c8b2273eab455c983a4722ce47edc48419/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d52330c8b2273eab455c983a4722ce47edc48419"
+wmake libso /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d52330c8b2273eab455c983a4722ce47edc48419
+    ln: ./lnInclude
+make[1]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d52330c8b2273eab455c983a4722ce47edc48419'
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d52330c8b2273eab455c983a4722ce47edc48419/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_d52330c8b2273eab455c983a4722ce47edc48419.so
+make[1]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/dictionary/dynamicCode/_d52330c8b2273eab455c983a4722ce47edc48419'
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+//
+// "simpleBlockMeshDict"
+//
+FoamFile
+{
+    format          ascii;
+    class           dictionary;
+    object          simpleBlockMeshDict;
+}
+
+min             ( -2.5 -1.2 -3 );
+
+max             ( 2.5 1.2 3 );
+
+nCellsByL       33.3333;
+
+nCells          ( 167 80 200 );
+
+vertices        8 ( ( -2.5 -1.2 -3 ) ( 2.5 -1.2 -3 ) ( 2.5 1.2 -3 ) ( -2.5 1.2 -3 ) ( -2.5 -1.2 3 ) ( 2.5 -1.2 3 ) ( 2.5 1.2 3 ) ( -2.5 1.2 3 ) );
+
+blocks          ( hex 8 ( 0 1 2 3 4 5 6 7 ) ( 167 80 200 ) simpleGrading ( 1 1 1 ) );
+
+defaultPatch
+{
+    type            patch;
+}
+
+boundary        ( );
+
+
+// ************************************************************************* //

@@ -1,0 +1,10 @@
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: np
+  Param:  foamRun
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------

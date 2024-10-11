@@ -1,0 +1,285 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : createNonConformalCouples -parallel -overwrite nonCouple1 nonCouple2
+Date   : Oct 11 2024
+Time   : 04:52:27
+Host   : "DESKTOP-KBPC6IC"
+PID    : 3107
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller
+nProcs : 8
+Slaves : 
+7
+(
+"DESKTOP-KBPC6IC.3108"
+"DESKTOP-KBPC6IC.3109"
+"DESKTOP-KBPC6IC.3110"
+"DESKTOP-KBPC6IC.3111"
+"DESKTOP-KBPC6IC.3112"
+"DESKTOP-KBPC6IC.3113"
+"DESKTOP-KBPC6IC.3114"
+)
+
+Pstream initialised with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Adding nonConformalCyclic interfaces between patches: 
+[1] 
+[1] 
+[1] --> FOAM FATAL ERROR: 
+[1] Patch named nonCouple1 not found.
+Available patch names: 
+6
+(
+walls
+inlet
+outlet
+procBoundary1to0
+procBoundary1to3
+procBoundary1to5
+)
+
+[1] 
+[2] 
+[2] 
+[2] --> FOAM FATAL ERROR: 
+[2] Patch named nonCouple1 not found.
+Available patch names: 
+6
+(
+walls
+inlet
+outlet
+procBoundary2to0
+procBoundary2to3
+procBoundary2to6
+)
+
+[2] 
+[2] 
+[2]     From function const Foam::polyPatch& Foam::polyBoundaryMesh::operator[](const Foam::word&) const
+[2]     in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line [1] 
+[1]     From function const Foam::polyPatch& Foam::polyBoundaryMesh::operator[](const Foam::word&) const
+[1]     in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 1199.
+[1] 
+FOAM parallel run aborting
+[1] 
+1199.
+[2] 
+FOAM parallel run aborting
+[2] 
+    (nonCouple1 nonCouple2)
+In regions: 
+    (region0 region0)
+Named:
+    (nonConformalCyclic_on_nonCouple1 nonConformalCyclic_on_nonCouple2)
+With transform: 
+    transformType   none;
+[4] 
+[4] 
+[4] --> FOAM FATAL ERROR: 
+[4] Patch named nonCouple1 not found.
+Available patch names: 
+6
+(
+walls
+inlet
+outlet
+procBoundary4to0
+procBoundary4to5
+procBoundary4to6
+)
+
+[4] 
+[4] 
+[4]     From function const Foam::polyPatch& Foam::polyBoundaryMesh::operator[](const Foam::word&) const
+[4] 
+    in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line [5] 
+[5] 
+[5] 1199.
+[4] 
+FOAM parallel run aborting
+[4] 
+--> FOAM FATAL ERROR: 
+[5] Patch named nonCouple1 not found.
+Available patch names: 
+6
+(
+walls
+inlet
+outlet
+procBoundary5to1
+procBoundary5to4
+procBoundary5to7
+)
+
+[5] 
+[5] 
+[5]     From function const Foam::polyPatch& Foam::polyBoundaryMesh::operator[](const Foam::word&) const
+[5]     in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 1199.
+[5] 
+FOAM parallel run aborting
+[5] 
+[6] 
+[6] 
+[6] --> FOAM FATAL ERROR: 
+[6] Patch named nonCouple1 not found.
+Available patch names: 
+6
+(
+walls
+inlet
+outlet
+procBoundary6to2
+procBoundary6to4
+procBoundary6to7
+)
+
+[6] 
+[6] 
+[6]     From function const Foam::polyPatch& Foam::polyBoundaryMesh::operator[](const Foam::word&) const
+[6]     in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 1199.
+[6] 
+FOAM parallel run aborting
+[6] 
+[0] [3] 
+[3] 
+[3] --> FOAM FATAL ERROR: 
+[3] Patch named nonCouple1 not found.
+Available patch names: 
+6
+(
+walls
+inlet
+outlet
+procBoundary3to1
+procBoundary3to2
+procBoundary3to7
+)
+
+[3] 
+[3] 
+[3]     From function const Foam::polyPatch& Foam::polyBoundaryMesh::operator[](const Foam::word&) const
+[3]     in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 1199.
+[3] 
+FOAM parallel run aborting
+[3] 
+
+[7] 
+[7] 
+[7] --> FOAM FATAL ERROR: 
+[7] Patch named nonCouple1 not found.
+Available patch names: 
+6
+(
+walls
+inlet
+outlet
+procBoundary7to3
+procBoundary7to5
+procBoundary7to6
+)
+
+[7] 
+[7] 
+[7]     From function const Foam::polyPatch& Foam::polyBoundaryMesh::operator[](const Foam::word&) const
+[7]     in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 1199.
+[7] 
+FOAM parallel run aborting
+[7] 
+[0] 
+[0] --> FOAM FATAL ERROR: 
+[0] Patch named nonCouple1 not found.
+Available patch names: 
+6
+(
+walls
+inlet
+outlet
+procBoundary0to1
+procBoundary0to2
+procBoundary0to4
+)
+
+[0] 
+[0] 
+[0]     From function const Foam::polyPatch& Foam::polyBoundaryMesh::operator[](const Foam::word&) const
+[0]     in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 1199.
+[0] 
+FOAM parallel run aborting
+[0] 
+[1] #0  Foam::error::printStack(Foam::Ostream&)[2] #0  Foam::error::printStack(Foam::Ostream&)[4] [5] #0  Foam::error::printStack(Foam::Ostream&)#0  Foam::error::printStack(Foam::Ostream&)[6] #0  [0] #0  Foam::error::printStack(Foam::Ostream&)[3] #0  Foam::error::printStack(Foam::Ostream&)Foam::error::printStack(Foam::Ostream&)[7] #0  Foam::error::printStack(Foam::Ostream&) at ??:?
+[4] #1  Foam::error::abort() at ??:?
+ at ??:?
+[7] #1  Foam::error::abort()[6] #1  Foam::error::abort() at ??:?
+[1] #1  Foam::error::abort() at ??:?
+[3] #1  Foam::error::abort() at ??:?
+[5] #1  Foam::error::abort() at ??:?
+[0] #1  Foam::error::abort() at ??:?
+[2] #1  Foam::error::abort() at ??:?
+[4] #2  Foam::polyBoundaryMesh::operator[](Foam::word const&) const at ??:?
+ at ??:?
+[0] #2  Foam::polyBoundaryMesh::operator[](Foam::word const&) const at ??:?
+[3] #2  Foam::polyBoundaryMesh::operator[](Foam::word const&) const[6] #2  Foam::polyBoundaryMesh::operator[](Foam::word const&) const at ??:?
+[7] #2  Foam::polyBoundaryMesh::operator[](Foam::word const&) const at ??:?
+[1] #2  Foam::polyBoundaryMesh::operator[](Foam::word const&) const at ??:?
+[2] #2  Foam::polyBoundaryMesh::operator[](Foam::word const&) const at ??:?
+[5] #2  Foam::polyBoundaryMesh::operator[](Foam::word const&) const at ??:?
+[4] #3   at ??:?
+[5] #3   at ??:?
+[0] #3   at ??:?
+[1] #3   at ??:?
+[2] #3   at ??:?
+[6] #3  ? at ??:?
+[7] #3   at ??:?
+[3] #3  ??????? in "/home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/bin/createNonConformalCouples"
+[1] #4  ? in "/home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/bin/createNonConformalCouples"
+[4] #4  ? in "/home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32 in "/home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/bin/createNonConformalCouples"
+[2] #4  ?Opt/bin/createNonConformalCouples"
+[6] #4  ? in "/home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/bin/createNonConformalCouples"
+ in "/home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/bin/createNonConformalCouples"
+[0] #4  ?[7] #4  ? in "/home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/bin/createNonConformalCouples"
+[3] #4  ? in "/home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/bin/createNonConformalCouples"
+[5] #4  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+[2] #5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+[7] #5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+[1] #5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+[4] #5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+[3] #5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+[0] #5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+[6] #5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+[4] #6   in "/lib/x86_64-linux-gnu/libc.so.6"
+[5] #5  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+[7] #6  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+[3] #6   in "/lib/x86_64-linux-gnu/libc.so.6"
+[2] #6   in "/lib/x86_64-linux-gnu/libc.so.6"
+[1] #6   in "/lib/x86_64-linux-gnu/libc.so.6"
+[5] #6  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+[0] #6   in "/lib/x86_64-linux-gnu/libc.so.6"
+[6] #6  ??? in "/home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/bin/createNonConformalCouples"
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 4 in communicator MPI COMMUNICATOR 3 SPLIT FROM 0
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+? in "/home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/bin/createNonConformalCouples"
+[DESKTOP-KBPC6IC:03100] 1 more process has sent help message help-mpi-api.txt / mpi-abort
+[DESKTOP-KBPC6IC:03100] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

@@ -1,0 +1,166 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : foamFormatConvert -parallel -fileHandler uncollated
+Date   : Oct 10 2024
+Time   : 23:10:25
+Host   : "DESKTOP-KBPC6IC"
+PID    : 27340
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/test/IO/fileHandler
+nProcs : 4
+Slaves : 
+3
+(
+"DESKTOP-KBPC6IC.27341"
+"DESKTOP-KBPC6IC.27342"
+"DESKTOP-KBPC6IC.27343"
+)
+
+Pstream initialised with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Time = constant
+        Reading labelList : owner
+        Writing owner
+        Reading labelList : neighbour
+        Writing neighbour
+        Reading faceCompactList : faces
+        Writing faces
+        Reading vectorField : points
+        Writing points
+        Reading polyBoundaryMesh : boundary
+        Writing boundary
+        Reading labelList : pointProcAddressing
+        Writing pointProcAddressing
+        Reading labelList : faceProcAddressing
+        Writing faceProcAddressing
+        Reading labelList : cellProcAddressing
+        Writing cellProcAddressing
+
+Time = 5e-05s
+        Reading volScalarField::Internal : cloud:UCoeff
+        Writing cloud:UCoeff
+        Reading volVectorField : U
+        Writing U
+        Reading surfaceScalarField : phi
+        Writing phi
+        Reading volVectorField::Internal : cloud:UTrans
+        Writing cloud:UTrans
+        Reading volScalarField : p
+        Writing p
+        Create polyMesh for time = 5e-05
+        Reading "vectorField" : U
+        Writing U
+        Reading "vectorField" : UTurb
+        Writing UTurb
+        Reading "labelField" : active
+        Writing active
+        Reading "scalarField" : age
+        Writing age
+        Reading "scalarField" : d
+        Writing d
+        Reading "scalarField" : dTarget
+        Writing dTarget
+        Reading "scalarField" : nParticle
+        Writing nParticle
+        Reading "scalarField" : rho
+        Writing rho
+        Reading "scalarField" : tTurb
+        Writing tTurb
+        Reading "labelField" : typeId
+        Writing typeId
+
+Time = 0.0001s
+        Reading volScalarField::Internal : cloud:UCoeff
+        Writing cloud:UCoeff
+        Reading volVectorField : U
+        Writing U
+        Reading surfaceScalarField : phi
+        Writing phi
+        Reading volVectorField::Internal : cloud:UTrans
+        Writing cloud:UTrans
+        Reading volScalarField : p
+        Writing p
+        Failed converting U
+        Failed converting UTurb
+        Failed converting active
+        Failed converting age
+        Failed converting d
+        Failed converting dTarget
+        Failed converting nParticle
+        Failed converting rho
+        Failed converting tTurb
+        Failed converting typeId
+
+Time = 0.00015s
+        Reading volScalarField::Internal : cloud:UCoeff
+        Writing cloud:UCoeff
+        Reading volVectorField : U
+        Writing U
+        Reading surfaceScalarField : phi
+        Writing phi
+        Reading volVectorField::Internal : cloud:UTrans
+        Writing cloud:UTrans
+        Reading volScalarField : p
+        Writing p
+        Failed converting U
+        Failed converting UTurb
+        Failed converting active
+        Failed converting age
+        Failed converting d
+        Failed converting dTarget
+        Failed converting nParticle
+        Failed converting rho
+        Failed converting tTurb
+        Failed converting typeId
+
+Time = 0.0002s
+        Reading volScalarField::Internal : cloud:UCoeff
+        Writing cloud:UCoeff
+        Reading volVectorField : U
+        Writing U
+        Reading surfaceScalarField : phi
+        Writing phi
+        Reading volVectorField::Internal : cloud:UTrans
+        Writing cloud:UTrans
+        Reading volScalarField : p
+        Writing p
+        Reading "vectorField" : U
+        Writing U
+        Reading "vectorField" : UTurb
+        Writing UTurb
+        Reading "labelField" : active
+        Writing active
+        Reading "scalarField" : age
+        Writing age
+        Reading "scalarField" : d
+        Writing d
+        Reading "scalarField" : dTarget
+        Writing dTarget
+        Reading "scalarField" : nParticle
+        Writing nParticle
+        Reading "scalarField" : rho
+        Writing rho
+        Reading "scalarField" : tTurb
+        Writing tTurb
+        Reading "labelField" : typeId
+        Writing typeId
+
+End
+
+Finalising parallel run

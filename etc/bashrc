@@ -1,3 +1,4 @@
+
 #----------------------------------*-sh-*--------------------------------------
 # =========                 |
 # \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
@@ -95,7 +96,7 @@ export WM_COMPILE_OPTION=Opt
 #- MPI implementation:
 #    WM_MPLIB = SYSTEMOPENMPI | OPENMPI | SYSTEMMPI | MPICH | MPICH-GM | HPMPI
 #               | MPI | FJMPI | QSMPI | SGIMPI | INTELMPI
-export WM_MPLIB=SYSTEMOPENMPI
+export WM_MPLIB=OPENMPI
 
 #- Operating System:
 #    WM_OSTYPE = POSIX | ???
@@ -250,5 +251,11 @@ unset cleaned foamClean foamOldDirs
 # Source the bash completion file:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [ "$BASH" ] && . $WM_PROJECT_DIR/etc/config.sh/bash_completion
+
+export WM_CUDA_ARCH=sm_50  # Juster for din GPU-arkitektur (f.eks. sm_75 for Turing, sm_80 for Ampere)
+export FOAM_USE_CUDA=1
+export WM_QT=5
+export PYTHON_INCLUDE="/usr/include/python3.8"  # Endre versjonen til din installasjon (f.eks. python3.x)
+export PYTHON_LIB="/usr/lib/python3.8/config-3.8-x86_64-linux-gnu"  # Endre etter behov
 
 #------------------------------------------------------------------------------

@@ -1,0 +1,81 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : foamToVTK
+Date   : Oct 10 2024
+Time   : 23:13:11
+Host   : "DESKTOP-KBPC6IC"
+PID    : 3828
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Time: 0
+    volScalarFields            : p
+    volVectorFields            : U
+    pointVectorFields          : pointDisplacement
+
+    Internal  : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/cavity_0.vtk"
+    Original cells:400 points:882   Additional cells:0  additional points:0
+
+Combining patches:
+    patch 0 zeroSizedPatch
+    patch 1 movingWall
+    patch 2 fixedWalls
+    discarding empty/nonConformal/processor patch 3 frontAndBack
+    Patch     : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/zeroSizedPatch/zeroSizedPatch_0.vtk"
+    Patch     : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/movingWall/movingWall_0.vtk"
+    Patch     : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/fixedWalls/fixedWalls_0.vtk"
+Time: 0.005
+    Read new mesh
+
+    volScalarFields            : p
+    volVectorFields            : U
+    pointVectorFields          : pointDisplacement
+
+    Internal  : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/cavity_1.vtk"
+    Original cells:400 points:882   Additional cells:0  additional points:0
+
+Combining patches:
+    patch 0 zeroSizedPatch
+    patch 1 movingWall
+    patch 2 fixedWalls
+    discarding empty/nonConformal/processor patch 3 frontAndBack
+    patch 4 myWall
+    Patch     : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/zeroSizedPatch/zeroSizedPatch_1.vtk"
+    Patch     : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/movingWall/movingWall_1.vtk"
+    Patch     : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/fixedWalls/fixedWalls_1.vtk"
+    Patch     : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/myWall/myWall_1.vtk"
+Time: 0.01
+    Read new mesh
+
+    volScalarFields            : p
+    volVectorFields            : U
+    pointVectorFields          : pointDisplacement
+
+    Internal  : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/cavity_2.vtk"
+    Original cells:400 points:882   Additional cells:0  additional points:0
+
+Combining patches:
+    patch 0 movingWall
+    patch 1 fixedWalls
+    discarding empty/nonConformal/processor patch 2 frontAndBack
+    patch 3 myWall
+    Patch     : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/movingWall/movingWall_2.vtk"
+    Patch     : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/fixedWalls/fixedWalls_2.vtk"
+    Patch     : "/home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity/VTK/myWall/myWall_2.vtk"
+End
+

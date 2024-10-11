@@ -1,0 +1,7 @@
+# Location 0      : (-2.0000000000e-01 -2.0000000000e-01 0.0000000000e+00)
+# Location 1      : (2.0000000000e-01 2.0000000000e-01 0.0000000000e+00)
+# hB              : Interface height above the boundary
+# hL              : Interface height above the location
+# Location        0                                     1                                     
+# Time            hB                 hL                 hB                 hL                 
+1                 2.0000000000e-01   -1.0000000000e-01  2.0000000000e-01   -5.0000000000e-01  

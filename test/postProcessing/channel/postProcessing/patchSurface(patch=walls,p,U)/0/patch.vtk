@@ -1,0 +1,18 @@
+# vtk DataFile Version 2.0
+sampleSurface
+ASCII
+DATASET POLYDATA
+POINTS 8 float
+-0.5 -0.5 -0.05 0.5 -0.5 -0.05 0.5 -0.5 0.05 -0.5 -0.5
+0.05 -0.5 0.5 -0.05 -0.5 0.5 0.05 0.5 0.5 0.05
+0.5 0.5 -0.05 
+POLYGONS 2 10
+4 0 1 2 3 4 4 5 6 7 
+POINT_DATA 8
+FIELD attributes 2
+p 1 8 float
+100000 100000 100000 100000 100000 100000 100000 100000 
+U 3 8 float
+4 0 0 4 0 0 4 0 0 4 0
+0 4 0 0 4 0 0 4 0 0
+4 0 0 

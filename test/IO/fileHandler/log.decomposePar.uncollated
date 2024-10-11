@@ -1,0 +1,131 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : decomposePar -fileHandler uncollated -force
+Date   : Oct 10 2024
+Time   : 23:10:14
+Host   : "DESKTOP-KBPC6IC"
+PID    : 27191
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/test/IO/fileHandler
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Removing 4 existing processor directories
+
+Calculating distribution of cells
+
+Selecting decomposer simple
+
+Finished decomposition in 0.001851 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 384
+    Number of faces shared with processor 1 = 72
+    Number of processor patches = 1
+    Number of processor faces = 72
+    Number of boundary faces = 840
+
+Processor 1
+    Number of cells = 384
+    Number of faces shared with processor 0 = 72
+    Number of faces shared with processor 2 = 64
+    Number of processor patches = 2
+    Number of processor faces = 136
+    Number of boundary faces = 784
+
+Processor 2
+    Number of cells = 384
+    Number of faces shared with processor 1 = 64
+    Number of faces shared with processor 3 = 72
+    Number of processor patches = 2
+    Number of processor faces = 136
+    Number of boundary faces = 784
+
+Processor 3
+    Number of cells = 384
+    Number of faces shared with processor 2 = 72
+    Number of processor patches = 1
+    Number of processor faces = 72
+    Number of boundary faces = 840
+
+Number of processor faces = 208
+Max number of cells = 384 (0% above average 384)
+Max number of processor patches = 2 (33.3333% above average 1.5)
+Max number of faces between processors = 136 (30.7692% above average 104)
+
+Time = 5e-05s
+
+Decomposing FV fields
+
+    Decomposing volScalarField::Internals
+
+        cloud:UCoeff
+
+    Decomposing volVectorField::Internals
+
+        cloud:UTrans
+
+    Decomposing volScalarFields
+
+        p
+
+    Decomposing volVectorFields
+
+        U
+
+    Decomposing surfaceScalarFields
+
+        phi
+
+Decomposing point fields
+
+    (no point fields)
+
+Decomposing lagrangian fields for cloud cloud
+
+    Decomposing labelFields
+
+        origProcId
+        origId
+        typeId
+        active
+
+    Decomposing scalarFields
+
+        d
+        dTarget
+        nParticle
+        rho
+        age
+        tTurb
+
+    Decomposing vectorFields
+
+        UTurb
+        U
+
+Distributing uniform files
+
+End
+

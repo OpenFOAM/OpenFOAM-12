@@ -1,0 +1,133 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : createBaffles -parallel -overwrite
+Date   : Oct 11 2024
+Time   : 04:52:20
+Host   : "DESKTOP-KBPC6IC"
+PID    : 3008
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller
+nProcs : 8
+Slaves : 
+7
+(
+"DESKTOP-KBPC6IC.3009"
+"DESKTOP-KBPC6IC.3010"
+"DESKTOP-KBPC6IC.3011"
+"DESKTOP-KBPC6IC.3012"
+"DESKTOP-KBPC6IC.3013"
+"DESKTOP-KBPC6IC.3014"
+"DESKTOP-KBPC6IC.3015"
+)
+
+Pstream initialised with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading "createBafflesDict"
+
+[0] 
+[0] 
+[0] --> FOAM FATAL ERROR: 
+[0] Cannot find faceZone innerCylinder
+Valid zones are 1(nonCouple)
+[0] 
+[0]     From function virtual void Foam::faceSelections::faceZoneSelection::select(Foam::label, Foam::labelList&, Foam::boolList&) const
+[0]     in file faceSelection/faceZoneSelection.C at line 74.
+[0] 
+FOAM parallel run exiting
+[0] 
+[2] 
+[2] 
+[2] --> FOAM FATAL ERROR: 
+[2] Cannot find faceZone innerCylinder
+Valid zones are 1(nonCouple)
+[2] 
+[2]     From function virtual void Foam::faceSelections::faceZoneSelection::select(Foam::label, Foam::labelList&, Foam::boolList&) const
+[2]     in file faceSelection/faceZoneSelection.C at line 74.
+[2] 
+FOAM parallel run exiting
+[2] 
+[4] 
+[4] 
+[4] --> FOAM FATAL ERROR: 
+[4] Cannot find faceZone innerCylinder
+Valid zones are 1(nonCouple)
+[4] 
+[4]     From function virtual void Foam::faceSelections::faceZoneSelection::select(Foam::label, Foam::labelList&, Foam::boolList&) const
+[4]     in file faceSelection/faceZoneSelection.C at line 74.
+[4] 
+FOAM parallel run exiting
+[4] 
+[5] 
+[5] 
+[5] --> FOAM FATAL ERROR: 
+[5] Cannot find faceZone innerCylinder
+Valid zones are 1(nonCouple)
+[5] 
+[5]     From function virtual void Foam::faceSelections::faceZoneSelection::select(Foam::label, Foam::labelList&, Foam::boolList&) const
+[5]     in file faceSelection/faceZoneSelection.C at line 74.
+[5] 
+FOAM parallel run exiting
+[5] 
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI COMMUNICATOR 3 SPLIT FROM 0
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+Not converting faces on non-coupled patches.
+
+[3] 
+[3] 
+[3] --> FOAM FATAL ERROR: 
+[3] Cannot find faceZone innerCylinder
+Valid zones are 1(nonCouple)
+[3] 
+[3]     From function virtual void Foam::faceSelections::faceZoneSelection::select(Foam::label, Foam::labelList&, Foam::boolList&) const
+[3]     in file faceSelection/faceZoneSelection.C at line 74.
+[3] 
+FOAM parallel run exiting
+[3] 
+[6] 
+[6] 
+[6] --> FOAM FATAL ERROR: 
+[6] Cannot find faceZone innerCylinder
+Valid zones are 1(nonCouple)
+[6] 
+[6]     From function virtual void Foam::faceSelections::faceZoneSelection::select(Foam::label, Foam::labelList&, Foam::boolList&) const
+[6]     in file faceSelection/faceZoneSelection.C at line 74.
+[6] 
+FOAM parallel run exiting
+[6] 
+[7] 
+[7] 
+[7] --> FOAM FATAL ERROR: 
+[7] Cannot find faceZone innerCylinder
+Valid zones are 1(nonCouple)
+[7] 
+[7]     From function virtual void Foam::faceSelections::faceZoneSelection::select(Foam::label, Foam::labelList&, Foam::boolList&) const
+[7]     in file faceSelection/faceZoneSelection.C at line 74.
+[7] 
+FOAM parallel run exiting
+[7] 
+[DESKTOP-KBPC6IC:03001] 6 more processes have sent help message help-mpi-api.txt / mpi-abort
+[DESKTOP-KBPC6IC:03001] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

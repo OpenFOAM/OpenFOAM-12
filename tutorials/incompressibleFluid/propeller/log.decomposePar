@@ -1,0 +1,166 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : decomposePar -noFields
+Date   : Oct 11 2024
+Time   : 04:52:13
+Host   : "DESKTOP-KBPC6IC"
+PID    : 2965
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Skipping decomposing fields
+
+Create time
+
+Calculating distribution of cells
+
+Selecting decomposer hierarchical
+
+Finished decomposition in 0.001671 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 360
+    Number of faces shared with processor 1 = 60
+    Number of faces shared with processor 2 = 36
+    Number of faces shared with processor 4 = 60
+    Number of processor patches = 3
+    Number of processor faces = 156
+    Number of boundary faces = 156
+
+Processor 1
+    Number of cells = 360
+    Number of faces shared with processor 0 = 60
+    Number of faces shared with processor 3 = 36
+    Number of faces shared with processor 5 = 60
+    Number of processor patches = 3
+    Number of processor faces = 156
+    Number of boundary faces = 156
+
+Processor 2
+    Number of cells = 360
+    Number of faces shared with processor 0 = 36
+    Number of faces shared with processor 3 = 60
+    Number of faces shared with processor 6 = 60
+    Number of processor patches = 3
+    Number of processor faces = 156
+    Number of boundary faces = 156
+
+Processor 3
+    Number of cells = 360
+    Number of faces shared with processor 1 = 36
+    Number of faces shared with processor 2 = 60
+    Number of faces shared with processor 7 = 60
+    Number of processor patches = 3
+    Number of processor faces = 156
+    Number of boundary faces = 156
+
+Processor 4
+    Number of cells = 360
+    Number of faces shared with processor 0 = 60
+    Number of faces shared with processor 5 = 60
+    Number of faces shared with processor 6 = 36
+    Number of processor patches = 3
+    Number of processor faces = 156
+    Number of boundary faces = 156
+
+Processor 5
+    Number of cells = 360
+    Number of faces shared with processor 1 = 60
+    Number of faces shared with processor 4 = 60
+    Number of faces shared with processor 7 = 36
+    Number of processor patches = 3
+    Number of processor faces = 156
+    Number of boundary faces = 156
+
+Processor 6
+    Number of cells = 360
+    Number of faces shared with processor 2 = 60
+    Number of faces shared with processor 4 = 36
+    Number of faces shared with processor 7 = 60
+    Number of processor patches = 3
+    Number of processor faces = 156
+    Number of boundary faces = 156
+
+Processor 7
+    Number of cells = 360
+    Number of faces shared with processor 3 = 60
+    Number of faces shared with processor 5 = 36
+    Number of faces shared with processor 6 = 60
+    Number of processor patches = 3
+    Number of processor faces = 156
+    Number of boundary faces = 156
+
+Number of processor faces = 624
+Max number of cells = 360 (0% above average 360)
+Max number of processor patches = 3 (0% above average 3)
+Max number of faces between processors = 156 (0% above average 156)
+
+Time = 0s
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : decomposePar -fields -copyZero
+Date   : Oct 11 2024
+Time   : 04:52:35
+Host   : "DESKTOP-KBPC6IC"
+PID    : 3284
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Time = 0s
+
+Processor 0: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/processor0/0"
+Processor 1: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/processor1/0"
+Processor 2: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/processor2/0"
+Processor 3: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/processor3/0"
+Processor 4: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/processor4/0"
+Processor 5: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/processor5/0"
+Processor 6: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/processor6/0"
+Processor 7: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller/processor7/0"
+
+End
+

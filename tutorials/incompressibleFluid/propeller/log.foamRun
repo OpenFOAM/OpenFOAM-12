@@ -1,0 +1,144 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : foamRun -parallel
+Date   : Oct 11 2024
+Time   : 04:52:37
+Host   : "DESKTOP-KBPC6IC"
+PID    : 3296
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller
+nProcs : 8
+Slaves : 
+7
+(
+"DESKTOP-KBPC6IC.3297"
+"DESKTOP-KBPC6IC.3298"
+"DESKTOP-KBPC6IC.3299"
+"DESKTOP-KBPC6IC.3300"
+"DESKTOP-KBPC6IC.3301"
+"DESKTOP-KBPC6IC.3302"
+"DESKTOP-KBPC6IC.3303"
+)
+
+Pstream initialised with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting fvMeshMover motionSolver
+Selecting motion solver: solidBody
+Selecting solid-body motion function rotatingMotion
+[3] 
+[3] 
+[3] --> FOAM FATAL ERROR: 
+[3] Cannot find cellZone innerCylinder
+Valid cellZones are 0()
+[3] [6] 
+[6] 
+[6] --> FOAM FATAL ERROR: 
+[6] Cannot find cellZone innerCylinder
+Valid cellZones are 0()
+[6] 
+[6]     From function void Foam::polyCellSet::setCells()
+[6]     in file sets/polyCellSet/polyCellSet.C at line 103.
+[6] 
+FOAM parallel run exiting
+[6] 
+
+[3]     From function void Foam::polyCellSet::setCells()
+[3]     in file sets/polyCellSet/polyCellSet.C at line 103.
+[3] 
+FOAM parallel run exiting
+[3] 
+[7] 
+[7] 
+[7] --> FOAM FATAL ERROR: 
+[7] Cannot find cellZone innerCylinder
+Valid cellZones are 0()
+[7] 
+[7]     From function void Foam::polyCellSet::setCells()
+[7]     in file sets/polyCellSet/polyCellSet.C at line 103.
+[7] 
+FOAM parallel run exiting
+[7] 
+    - selecting cells using cellZone innerCylinder
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 6 in communicator MPI COMMUNICATOR 3 SPLIT FROM 0
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[0] 
+[0] 
+[0] --> FOAM FATAL ERROR: 
+[0] Cannot find cellZone innerCylinder
+Valid cellZones are 0()
+[0] 
+[0]     From function void Foam::polyCellSet::setCells()
+[0]     in file sets/polyCellSet/polyCellSet.C at line 103.
+[0] 
+FOAM parallel run exiting
+[0] 
+[1] 
+[1] 
+[1] --> FOAM FATAL ERROR: 
+[1] Cannot find cellZone innerCylinder
+Valid cellZones are 0()
+[1] 
+[1]     From function void Foam::polyCellSet::setCells()
+[1]     in file sets/polyCellSet/polyCellSet.C at line 103.
+[1] 
+FOAM parallel run exiting
+[1] 
+[2] 
+[2] 
+[2] --> FOAM FATAL ERROR: 
+[2] Cannot find cellZone innerCylinder
+Valid cellZones are 0()
+[2] 
+[2]     From function void Foam::polyCellSet::setCells()
+[2]     in file sets/polyCellSet/polyCellSet.C at line 103.
+[2] 
+FOAM parallel run exiting
+[2] 
+[4] 
+[4] 
+[4] --> FOAM FATAL ERROR: 
+[4] Cannot find cellZone innerCylinder
+Valid cellZones are 0()
+[4] 
+[4]     From function void Foam::polyCellSet::setCells()
+[4]     in file sets/polyCellSet/polyCellSet.C at line 103.
+[4] 
+FOAM parallel run exiting
+[4] 
+[5] 
+[5] 
+[5] --> FOAM FATAL ERROR: 
+[5] Cannot find cellZone innerCylinder
+Valid cellZones are 0()
+[5] 
+[5]     From function void Foam::polyCellSet::setCells()
+[5]     in file sets/polyCellSet/polyCellSet.C at line 103.
+[5] 
+FOAM parallel run exiting
+[5] 
+[DESKTOP-KBPC6IC:03289] 7 more processes have sent help message help-mpi-api.txt / mpi-abort
+[DESKTOP-KBPC6IC:03289] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

@@ -1,0 +1,19 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # Run from this directory
+
+# Source tutorial run functions
+. $WM_PROJECT_DIR/bin/tools/RunFunctions
+
+# Set-up the LES case
+cp ../lesFiles/fvS* ../lesFiles/controlDict ../lesFiles/functions system/
+cp ../lesFiles/momentumTransport constant/
+
+ls -d processor* | xargs -I {} rm -rf ./{}/0
+ls -d processor* | xargs -I {} mv ./{}/500 ./{}/0
+ls -d processor* | xargs -I {} rm -rf ./{}/0/uniform
+
+runParallel foamRun
+
+runApplication reconstructPar
+
+#------------------------------------------------------------------------------

@@ -1,0 +1,46 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : splitBaffles -parallel -overwrite
+Date   : Oct 11 2024
+Time   : 04:52:22
+Host   : "DESKTOP-KBPC6IC"
+PID    : 3041
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/propeller
+nProcs : 8
+Slaves : 
+7
+(
+"DESKTOP-KBPC6IC.3042"
+"DESKTOP-KBPC6IC.3043"
+"DESKTOP-KBPC6IC.3044"
+"DESKTOP-KBPC6IC.3045"
+"DESKTOP-KBPC6IC.3046"
+"DESKTOP-KBPC6IC.3047"
+"DESKTOP-KBPC6IC.3049"
+)
+
+Pstream initialised with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Writing mesh to time 0
+End
+
+Finalising parallel run

@@ -1,0 +1,133 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : decomposePar -copyZero
+Date   : Oct 11 2024
+Time   : 14:53:26
+Host   : "DESKTOP-KBPC6IC"
+PID    : 111252
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Calculating distribution of cells
+
+Selecting decomposer hierarchical
+
+Finished decomposition in 0.000865 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 160
+    Number of faces shared with processor 1 = 32
+    Number of faces shared with processor 4 = 40
+    Number of processor patches = 2
+    Number of processor faces = 72
+    Number of boundary faces = 112
+
+Processor 1
+    Number of cells = 160
+    Number of faces shared with processor 0 = 32
+    Number of faces shared with processor 2 = 32
+    Number of faces shared with processor 5 = 40
+    Number of processor patches = 3
+    Number of processor faces = 104
+    Number of boundary faces = 80
+
+Processor 2
+    Number of cells = 160
+    Number of faces shared with processor 1 = 32
+    Number of faces shared with processor 3 = 32
+    Number of faces shared with processor 6 = 40
+    Number of processor patches = 3
+    Number of processor faces = 104
+    Number of boundary faces = 80
+
+Processor 3
+    Number of cells = 160
+    Number of faces shared with processor 2 = 32
+    Number of faces shared with processor 7 = 40
+    Number of processor patches = 2
+    Number of processor faces = 72
+    Number of boundary faces = 112
+
+Processor 4
+    Number of cells = 160
+    Number of faces shared with processor 0 = 40
+    Number of faces shared with processor 5 = 32
+    Number of processor patches = 2
+    Number of processor faces = 72
+    Number of boundary faces = 112
+
+Processor 5
+    Number of cells = 160
+    Number of faces shared with processor 1 = 40
+    Number of faces shared with processor 4 = 32
+    Number of faces shared with processor 6 = 32
+    Number of processor patches = 3
+    Number of processor faces = 104
+    Number of boundary faces = 80
+
+Processor 6
+    Number of cells = 160
+    Number of faces shared with processor 2 = 40
+    Number of faces shared with processor 5 = 32
+    Number of faces shared with processor 7 = 32
+    Number of processor patches = 3
+    Number of processor faces = 104
+    Number of boundary faces = 80
+
+Processor 7
+    Number of cells = 160
+    Number of faces shared with processor 3 = 40
+    Number of faces shared with processor 6 = 32
+    Number of processor patches = 2
+    Number of processor faces = 72
+    Number of boundary faces = 112
+
+Number of processor faces = 352
+Max number of cells = 160 (0% above average 160)
+Max number of processor patches = 3 (20% above average 2.5)
+Max number of faces between processors = 104 (18.1818% above average 88)
+
+Time = 0s
+
+Processor 0: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/processor0/0"
+Processor 1: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/processor1/0"
+Processor 2: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/processor2/0"
+Processor 3: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/processor3/0"
+Processor 4: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/processor4/0"
+Processor 5: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/processor5/0"
+Processor 6: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/processor6/0"
+Processor 7: copying "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/0"
+ to "/home/as/openfoam/OpenFOAM-12/tutorials/incompressibleFluid/motorBike/motorBike/processor7/0"
+
+End
+

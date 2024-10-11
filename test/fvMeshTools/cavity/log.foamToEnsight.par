@@ -1,0 +1,58 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-cc05c1b03c38
+Exec   : foamToEnsight -parallel
+Date   : Oct 10 2024
+Time   : 23:13:17
+Host   : "DESKTOP-KBPC6IC"
+PID    : 3878
+I/O    : uncollated
+Case   : /home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity
+nProcs : 3
+Slaves : 
+2
+(
+"DESKTOP-KBPC6IC.3879"
+"DESKTOP-KBPC6IC.3880"
+)
+
+Pstream initialised with:
+    floatTransfer      : false
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+write case: cavity.case
+Detected a moving mesh (multiple polyMesh/points files). Writing meshes for every timestep.
+Translating time = 0
+Converting field p
+Converting field U
+Translating time = 0.005
+Converting field p
+Converting field U
+Translating time = 0.01
+Converting field p
+Converting field U
+Translating time = 0.015
+Converting field p
+Converting field U
+Translating time = 0.02
+Converting field p
+Converting field U
+End
+
+Finalising parallel run
