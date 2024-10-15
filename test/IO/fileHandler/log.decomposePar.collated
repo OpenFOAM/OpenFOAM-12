@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : decomposePar -fileHandler collated -force -copyUniform
-Date   : Oct 10 2024
-Time   : 23:10:27
+Date   : Oct 15 2024
+Time   : 05:52:30
 Host   : "DESKTOP-KBPC6IC"
-PID    : 27373
+PID    : 212330
 I/O    : collated (maxThreadFileBufferSize 2e+09)
          Threading activated since maxThreadFileBufferSize > 0.
          Requires large enough buffer to collect all data or thread support 
@@ -32,7 +32,7 @@ Calculating distribution of cells
 
 Selecting decomposer simple
 
-Finished decomposition in 0.001208 s
+Finished decomposition in 0.003258 s
 
 Calculating original mesh data
 

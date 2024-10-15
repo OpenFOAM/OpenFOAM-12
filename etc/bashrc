@@ -254,8 +254,8 @@ unset cleaned foamClean foamOldDirs
 
 export WM_CUDA_ARCH=sm_50  # Juster for din GPU-arkitektur (f.eks. sm_75 for Turing, sm_80 for Ampere)
 export FOAM_USE_CUDA=1
-export WM_QT=5
-export PYTHON_INCLUDE="/usr/include/python3.8"  # Endre versjonen til din installasjon (f.eks. python3.x)
-export PYTHON_LIB="/usr/lib/python3.8/config-3.8-x86_64-linux-gnu"  # Endre etter behov
+export WM_QT=6
+export PYTHON_INCLUDE="/usr/include/python3.12"  # Endre versjonen til din installasjon (f.eks. python3.x)
+export PYTHON_LIB="/usr/lib/python3.12/config-3.12-x86_64-linux-gnu"  # Endre etter behov
 
 #------------------------------------------------------------------------------

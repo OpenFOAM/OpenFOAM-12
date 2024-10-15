@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : foamRun -parallel -fileHandler collated
-Date   : Oct 10 2024
-Time   : 23:10:19
+Date   : Oct 15 2024
+Time   : 05:52:16
 Host   : "DESKTOP-KBPC6IC"
-PID    : 27265
+PID    : 211284
 I/O    : collated (maxThreadFileBufferSize 2e+09)
          Threading activated since maxThreadFileBufferSize > 0.
          Requires large enough buffer to collect all data or thread support 
@@ -22,9 +22,9 @@ nProcs : 4
 Slaves : 
 3
 (
-"DESKTOP-KBPC6IC.27266"
-"DESKTOP-KBPC6IC.27267"
-"DESKTOP-KBPC6IC.27268"
+"DESKTOP-KBPC6IC.211285"
+"DESKTOP-KBPC6IC.211286"
+"DESKTOP-KBPC6IC.211288"
 )
 
 Pstream initialised with:
@@ -81,16 +81,18 @@ PIMPLE: Operating solver in PISO mode
 Starting time loop
 
 Courant Number mean: 0 max: 0
-Time = 0.00015s
-
 
 Solving 3-D cloud cloud
+
+Cloud: cloud injector: model1
+    Added 71 new parcels
+
 Cloud: cloud
-    Current number of parcels       = 71
-    Current mass in system          = 0.00774083
+    Current number of parcels       = 142
+    Current mass in system          = 0.0154817
     Linear momentum                 = (0 -1.13765e-05 0)
    |Linear momentum|                = 1.13765e-05
-    Linear kinetic energy           = 8.3598e-09
+    Linear kinetic energy           = 4.64434e-09
     model1:
         number of parcels added     = 71
         mass introduced             = 0.00774083
@@ -102,7 +104,9 @@ GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0
 GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0, cumulative = 0
-ExecutionTime = 0.347327 s  ClockTime = 1 s
+Time = 0.00015s
+
+ExecutionTime = 0.697788 s  ClockTime = 1 s
 
 End
 

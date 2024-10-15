@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : decomposePar -fileHandler uncollated -force
-Date   : Oct 10 2024
-Time   : 23:10:14
+Date   : Oct 15 2024
+Time   : 05:52:08
 Host   : "DESKTOP-KBPC6IC"
-PID    : 27191
+PID    : 210549
 I/O    : uncollated
 Case   : /home/as/openfoam/OpenFOAM-12/test/IO/fileHandler
 nProcs : 1
@@ -27,7 +27,7 @@ Calculating distribution of cells
 
 Selecting decomposer simple
 
-Finished decomposition in 0.001851 s
+Finished decomposition in 0.004361 s
 
 Calculating original mesh data
 

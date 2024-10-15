@@ -1,5 +1,0 @@
-# Source1         : triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region1
-# Source2         : triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region2
-# Operation       : subtract
-# Time            	p
-1                 	8.6669999990e-02

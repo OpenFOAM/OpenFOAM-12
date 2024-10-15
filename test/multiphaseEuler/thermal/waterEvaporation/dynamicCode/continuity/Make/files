@@ -1,6 +1,0 @@
-# dynamicCode:
-# SHA1 = c23f11799d2acac01880b1c44d24a164a9a86c72
-
-codedFunctionObjectTemplate.C
-
-LIB = $(PWD)/../platforms/$(WM_OPTIONS)/lib/libcontinuity_c23f11799d2acac01880b1c44d24a164a9a86c72

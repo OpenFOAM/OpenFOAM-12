@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : foamRun -parallel -fileHandler collated
-Date   : Oct 10 2024
-Time   : 23:10:09
+Date   : Oct 15 2024
+Time   : 05:52:06
 Host   : "DESKTOP-KBPC6IC"
-PID    : 27166
+PID    : 210250
 I/O    : collated (maxThreadFileBufferSize 2e+09)
          Threading activated since maxThreadFileBufferSize > 0.
          Requires large enough buffer to collect all data or thread support 
@@ -22,9 +22,9 @@ nProcs : 4
 Slaves : 
 3
 (
-"DESKTOP-KBPC6IC.27167"
-"DESKTOP-KBPC6IC.27168"
-"DESKTOP-KBPC6IC.27169"
+"DESKTOP-KBPC6IC.210254"
+"DESKTOP-KBPC6IC.210257"
+"DESKTOP-KBPC6IC.210259"
 )
 
 Pstream initialised with:
@@ -81,23 +81,17 @@ PIMPLE: Operating solver in PISO mode
 Starting time loop
 
 Courant Number mean: 0 max: 0
-Time = 5e-05s
-
 
 Solving 3-D cloud cloud
-
-Cloud: cloud injector: model1
-    Added 71 new parcels
-
 Cloud: cloud
-    Current number of parcels       = 71
-    Current mass in system          = 0.00774083
-    Linear momentum                 = (0 -3.79215e-06 0)
-   |Linear momentum|                = 3.79215e-06
-    Linear kinetic energy           = 9.28867e-10
+    Current number of parcels       = 0
+    Current mass in system          = 0
+    Linear momentum                 = (0 0 0)
+   |Linear momentum|                = 0
+    Linear kinetic energy           = 0
     model1:
-        number of parcels added     = 71
-        mass introduced             = 0.00774083
+        number of parcels added     = 0
+        mass introduced             = 0
 
 smoothSolver:  Solving for Ux, Initial residual = 0, Final residual = 0, No Iterations 0
 smoothSolver:  Solving for Uy, Initial residual = 0, Final residual = 0, No Iterations 0
@@ -106,7 +100,9 @@ GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0
 GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0, cumulative = 0
-ExecutionTime = 1.57164 s  ClockTime = 4 s
+Time = 5e-05s
+
+ExecutionTime = 0.878028 s  ClockTime = 2 s
 
 End
 

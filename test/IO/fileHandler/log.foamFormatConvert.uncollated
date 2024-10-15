@@ -7,19 +7,19 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : foamFormatConvert -parallel -fileHandler uncollated
-Date   : Oct 10 2024
-Time   : 23:10:25
+Date   : Oct 15 2024
+Time   : 05:52:26
 Host   : "DESKTOP-KBPC6IC"
-PID    : 27340
+PID    : 212109
 I/O    : uncollated
 Case   : /home/as/openfoam/OpenFOAM-12/test/IO/fileHandler
 nProcs : 4
 Slaves : 
 3
 (
-"DESKTOP-KBPC6IC.27341"
-"DESKTOP-KBPC6IC.27342"
-"DESKTOP-KBPC6IC.27343"
+"DESKTOP-KBPC6IC.212111"
+"DESKTOP-KBPC6IC.212112"
+"DESKTOP-KBPC6IC.212114"
 )
 
 Pstream initialised with:

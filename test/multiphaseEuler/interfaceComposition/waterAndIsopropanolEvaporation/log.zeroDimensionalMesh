@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : zeroDimensionalMesh
-Date   : Oct 10 2024
-Time   : 23:13:18
+Date   : Oct 15 2024
+Time   : 05:56:40
 Host   : "DESKTOP-KBPC6IC"
-PID    : 3905
+PID    : 238131
 I/O    : uncollated
 Case   : /home/as/openfoam/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
 nProcs : 1

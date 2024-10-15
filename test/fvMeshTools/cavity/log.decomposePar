@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : decomposePar
-Date   : Oct 10 2024
-Time   : 23:13:11
+Date   : Oct 15 2024
+Time   : 05:56:35
 Host   : "DESKTOP-KBPC6IC"
-PID    : 3830
+PID    : 237687
 I/O    : uncollated
 Case   : /home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity
 nProcs : 1
@@ -25,7 +25,7 @@ Calculating distribution of cells
 
 Selecting decomposer scotch
 
-Finished decomposition in 0.001674 s
+Finished decomposition in 0.003081 s
 
 Calculating original mesh data
 

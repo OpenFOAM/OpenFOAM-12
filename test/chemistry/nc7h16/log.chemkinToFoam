@@ -1,1 +1,1 @@
-chemkinToFoam: symbol lookup error: /usr/lib/libsolidSpecie.so: undefined symbol: _ZN4Foam8fileName20allowSpaceInFileNameE
+chemkinToFoam: symbol lookup error: /lib/libsolidSpecie.so: undefined symbol: _ZN4Foam8fileName20allowSpaceInFileNameE

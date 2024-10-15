@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : foamRun
-Date   : Oct 10 2024
-Time   : 23:13:18
+Date   : Oct 15 2024
+Time   : 05:56:41
 Host   : "DESKTOP-KBPC6IC"
-PID    : 3910
+PID    : 238165
 I/O    : uncollated
 Case   : /home/as/openfoam/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation
 nProcs : 1
@@ -105,10 +105,18 @@ make[3]: Entering directory '/home/as/openfoam/OpenFOAM-12/test/multiphaseEuler/
     wmkdep: codedFunctionObjectTemplate.C
     Ctoo: codedFunctionObjectTemplate.C
     ld: /home/as/openfoam/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation/dynamicCode/continuity/../platforms/linux64GccDPInt32Opt/lib/libcontinuity_e7fb2942b8d6d12b701d2bfb66dbf62dbb44d7ad.so
+/home/as/miniconda3/envs/paraview_env/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld.bfd: warning: libz.so.1, needed by /home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so, not found (try using -rpath or -rpath-link)
+/home/as/miniconda3/envs/paraview_env/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld.bfd: warning: libnuma.so.1, needed by /home/as/openfoam/ThirdParty-12/platforms/linux64Gcc/openmpi-2.1.1/lib64/libopen-pal.so.20, not found (try using -rpath or -rpath-link)
+/home/as/miniconda3/envs/paraview_env/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld.bfd: warning: libOpenCL.so.1, needed by /home/as/openfoam/ThirdParty-12/platforms/linux64Gcc/openmpi-2.1.1/lib64/libopen-pal.so.20, not found (try using -rpath or -rpath-link)
+/home/as/miniconda3/envs/paraview_env/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld.bfd: warning: libcudart.so.12, needed by /home/as/openfoam/ThirdParty-12/platforms/linux64Gcc/openmpi-2.1.1/lib64/libopen-pal.so.20, not found (try using -rpath or -rpath-link)
+/home/as/miniconda3/envs/paraview_env/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld.bfd: warning: libnvidia-ml.so.1, needed by /home/as/openfoam/ThirdParty-12/platforms/linux64Gcc/openmpi-2.1.1/lib64/libopen-pal.so.20, not found (try using -rpath or -rpath-link)
+/home/as/miniconda3/envs/paraview_env/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld.bfd: warning: libz.so.1, needed by /home/as/openfoam/OpenFOAM-12/platforms/linux64GccDPInt32Opt/lib/libOpenFOAM.so, not found (try using -rpath or -rpath-link)
+/home/as/miniconda3/envs/paraview_env/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld.bfd: warning: libnuma.so.1, needed by /home/as/openfoam/ThirdParty-12/platforms/linux64Gcc/openmpi-2.1.1/lib64/libopen-pal.so.20, not found (try using -rpath or -rpath-link)
+/home/as/miniconda3/envs/paraview_env/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld.bfd: warning: libOpenCL.so.1, needed by /home/as/openfoam/ThirdParty-12/platforms/linux64Gcc/openmpi-2.1.1/lib64/libopen-pal.so.20, not found (try using -rpath or -rpath-link)
+/home/as/miniconda3/envs/paraview_env/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld.bfd: warning: libcudart.so.12, needed by /home/as/openfoam/ThirdParty-12/platforms/linux64Gcc/openmpi-2.1.1/lib64/libopen-pal.so.20, not found (try using -rpath or -rpath-link)
+/home/as/miniconda3/envs/paraview_env/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld.bfd: warning: libnvidia-ml.so.1, needed by /home/as/openfoam/ThirdParty-12/platforms/linux64Gcc/openmpi-2.1.1/lib64/libopen-pal.so.20, not found (try using -rpath or -rpath-link)
 make[3]: Leaving directory '/home/as/openfoam/OpenFOAM-12/test/multiphaseEuler/interfaceComposition/waterAndIsopropanolEvaporation/dynamicCode/continuity'
 Courant Number mean: 0 max: 0
-Time = 0.0025s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -239,11 +247,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 351.4254202 - 351.4254202
 liquid min/max T 349.0452236 - 349.0452236
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.360663 s  ClockTime = 15 s
+Time = 0.0025s
+
+ExecutionTime = 0.446529 s  ClockTime = 26 s
 
 Courant Number mean: 0 max: 0
-Time = 0.005s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -374,11 +382,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 352.4568629 - 352.4568629
 liquid min/max T 348.1508172 - 348.1508172
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.420855 s  ClockTime = 15 s
+Time = 0.005s
+
+ExecutionTime = 0.518353 s  ClockTime = 26 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0075s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -509,11 +517,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 353.2403405 - 353.2403405
 liquid min/max T 347.3143478 - 347.3143478
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.476823 s  ClockTime = 15 s
+Time = 0.0075s
+
+ExecutionTime = 0.569933 s  ClockTime = 26 s
 
 Courant Number mean: 0 max: 0
-Time = 0.01s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -644,11 +652,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 353.8278112 - 353.8278112
 liquid min/max T 346.5313432 - 346.5313432
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.558599 s  ClockTime = 15 s
+Time = 0.01s
+
+ExecutionTime = 0.612227 s  ClockTime = 26 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0125s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -779,11 +787,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.2551797 - 354.2551797
 liquid min/max T 345.7971351 - 345.7971351
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.590922 s  ClockTime = 15 s
+Time = 0.0125s
+
+ExecutionTime = 0.654215 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.015s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -914,11 +922,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.5515105 - 354.5515105
 liquid min/max T 345.1076455 - 345.1076455
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.609608 s  ClockTime = 15 s
+Time = 0.015s
+
+ExecutionTime = 0.704116 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0175s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -1049,11 +1057,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.7400392 - 354.7400392
 liquid min/max T 344.4592493 - 344.4592493
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.624417 s  ClockTime = 15 s
+Time = 0.0175s
+
+ExecutionTime = 0.753275 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.02s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -1184,11 +1192,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.8394218 - 354.8394218
 liquid min/max T 343.8487004 - 343.8487004
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.64033 s  ClockTime = 15 s
+Time = 0.02s
+
+ExecutionTime = 0.800936 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0225s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -1319,11 +1327,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.8647549 - 354.8647549
 liquid min/max T 343.2730795 - 343.2730795
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.656113 s  ClockTime = 15 s
+Time = 0.0225s
+
+ExecutionTime = 0.836263 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.025s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -1454,11 +1462,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.8283536 - 354.8283536
 liquid min/max T 342.7297529 - 342.7297529
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.672615 s  ClockTime = 15 s
+Time = 0.025s
+
+ExecutionTime = 0.888143 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0275s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -1589,11 +1597,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.7403409 - 354.7403409
 liquid min/max T 342.2163377 - 342.2163377
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.696832 s  ClockTime = 15 s
+Time = 0.0275s
+
+ExecutionTime = 0.921635 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.03s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -1724,11 +1732,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.6090964 - 354.6090964
 liquid min/max T 341.7306719 - 341.7306719
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.740329 s  ClockTime = 15 s
+Time = 0.03s
+
+ExecutionTime = 0.968227 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0325s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -1859,11 +1867,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.4416017 - 354.4416017
 liquid min/max T 341.2707899 - 341.2707899
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.795773 s  ClockTime = 15 s
+Time = 0.0325s
+
+ExecutionTime = 1.033577 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.035s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -1994,11 +2002,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.2437075 - 354.2437075
 liquid min/max T 340.8349002 - 340.8349002
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.852977 s  ClockTime = 15 s
+Time = 0.035s
+
+ExecutionTime = 1.114555 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0375s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -2129,11 +2137,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 354.0203434 - 354.0203434
 liquid min/max T 340.4213666 - 340.4213666
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.909543 s  ClockTime = 15 s
+Time = 0.0375s
+
+ExecutionTime = 1.196934 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.04s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -2264,11 +2272,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 353.7756823 - 353.7756823
 liquid min/max T 340.0286919 - 340.0286919
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.972899 s  ClockTime = 15 s
+Time = 0.04s
+
+ExecutionTime = 1.264326 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0425s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -2399,11 +2407,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 353.5132727 - 353.5132727
 liquid min/max T 339.6555035 - 339.6555035
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 0.994014 s  ClockTime = 15 s
+Time = 0.0425s
+
+ExecutionTime = 1.303514 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.045s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -2534,11 +2542,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 353.2361437 - 353.2361437
 liquid min/max T 339.3005409 - 339.3005409
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.009876 s  ClockTime = 15 s
+Time = 0.045s
+
+ExecutionTime = 1.361995 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0475s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -2669,11 +2677,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 352.9468902 - 352.9468902
 liquid min/max T 338.9626443 - 338.9626443
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.025162 s  ClockTime = 15 s
+Time = 0.0475s
+
+ExecutionTime = 1.401086 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.05s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -2804,11 +2812,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 352.6477422 - 352.6477422
 liquid min/max T 338.6407453 - 338.6407453
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.041424 s  ClockTime = 15 s
+Time = 0.05s
+
+ExecutionTime = 1.468834 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0525s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -2939,11 +2947,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 352.3406213 - 352.3406213
 liquid min/max T 338.333858 - 338.333858
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.058745 s  ClockTime = 15 s
+Time = 0.0525s
+
+ExecutionTime = 1.550116 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.055s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -3074,11 +3082,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 352.0271879 - 352.0271879
 liquid min/max T 338.0410712 - 338.0410712
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.109742 s  ClockTime = 16 s
+Time = 0.055s
+
+ExecutionTime = 1.642098 s  ClockTime = 27 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0575s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -3209,11 +3217,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 351.708879 - 351.708879
 liquid min/max T 337.7615419 - 337.7615419
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.163866 s  ClockTime = 16 s
+Time = 0.0575s
+
+ExecutionTime = 1.785955 s  ClockTime = 28 s
 
 Courant Number mean: 0 max: 0
-Time = 0.06s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -3344,11 +3352,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 351.3869413 - 351.3869413
 liquid min/max T 337.4944889 - 337.4944889
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.228916 s  ClockTime = 16 s
+Time = 0.06s
+
+ExecutionTime = 1.868393 s  ClockTime = 28 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0625s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -3479,11 +3487,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 351.0624573 - 351.0624573
 liquid min/max T 337.2391875 - 337.2391875
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.293991 s  ClockTime = 16 s
+Time = 0.0625s
+
+ExecutionTime = 1.980663 s  ClockTime = 28 s
 
 Courant Number mean: 0 max: 0
-Time = 0.065s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -3614,11 +3622,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 350.7363684 - 350.7363684
 liquid min/max T 336.9949648 - 336.9949648
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.352561 s  ClockTime = 16 s
+Time = 0.065s
+
+ExecutionTime = 2.152525 s  ClockTime = 28 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0675s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -3749,11 +3757,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 350.4094941 - 350.4094941
 liquid min/max T 336.7611947 - 336.7611947
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.423887 s  ClockTime = 16 s
+Time = 0.0675s
+
+ExecutionTime = 2.236847 s  ClockTime = 28 s
 
 Courant Number mean: 0 max: 0
-Time = 0.07s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -3884,11 +3892,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 350.0825477 - 350.0825477
 liquid min/max T 336.5372948 - 336.5372948
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.499224 s  ClockTime = 16 s
+Time = 0.07s
+
+ExecutionTime = 2.328419 s  ClockTime = 28 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0725s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -4019,11 +4027,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 349.7561504 - 349.7561504
 liquid min/max T 336.3227222 - 336.3227222
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.560942 s  ClockTime = 16 s
+Time = 0.0725s
+
+ExecutionTime = 2.47386 s  ClockTime = 28 s
 
 Courant Number mean: 0 max: 0
-Time = 0.075s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -4154,11 +4162,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 349.4308432 - 349.4308432
 liquid min/max T 336.1169706 - 336.1169706
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.593115 s  ClockTime = 16 s
+Time = 0.075s
+
+ExecutionTime = 2.620522 s  ClockTime = 28 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0775s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -4289,11 +4297,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 349.1070967 - 349.1070967
 liquid min/max T 335.9195673 - 335.9195673
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.610839 s  ClockTime = 16 s
+Time = 0.0775s
+
+ExecutionTime = 2.733668 s  ClockTime = 29 s
 
 Courant Number mean: 0 max: 0
-Time = 0.08s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -4424,11 +4432,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 348.7853201 - 348.7853201
 liquid min/max T 335.7300703 - 335.7300703
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.627687 s  ClockTime = 16 s
+Time = 0.08s
+
+ExecutionTime = 2.832775 s  ClockTime = 29 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0825s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -4559,11 +4567,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 348.4658684 - 348.4658684
 liquid min/max T 335.5480666 - 335.5480666
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.643563 s  ClockTime = 16 s
+Time = 0.0825s
+
+ExecutionTime = 2.929587 s  ClockTime = 29 s
 
 Courant Number mean: 0 max: 0
-Time = 0.085s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -4694,11 +4702,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 348.1490492 - 348.1490492
 liquid min/max T 335.3731692 - 335.3731692
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.660637 s  ClockTime = 16 s
+Time = 0.085s
+
+ExecutionTime = 3.040141 s  ClockTime = 29 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0875s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -4829,11 +4837,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 347.8351281 - 347.8351281
 liquid min/max T 335.2050158 - 335.2050158
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.678187 s  ClockTime = 16 s
+Time = 0.0875s
+
+ExecutionTime = 3.182038 s  ClockTime = 29 s
 
 Courant Number mean: 0 max: 0
-Time = 0.09s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -4964,11 +4972,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 347.5243338 - 347.5243338
 liquid min/max T 335.0432665 - 335.0432665
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.706322 s  ClockTime = 16 s
+Time = 0.09s
+
+ExecutionTime = 3.261498 s  ClockTime = 29 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0925s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -5099,11 +5107,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 347.2168622 - 347.2168622
 liquid min/max T 334.8876022 - 334.8876022
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.733112 s  ClockTime = 16 s
+Time = 0.0925s
+
+ExecutionTime = 3.327693 s  ClockTime = 29 s
 
 Courant Number mean: 0 max: 0
-Time = 0.095s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -5234,11 +5242,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 346.9128804 - 346.9128804
 liquid min/max T 334.7377236 - 334.7377236
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.75479 s  ClockTime = 16 s
+Time = 0.095s
+
+ExecutionTime = 3.409283 s  ClockTime = 29 s
 
 Courant Number mean: 0 max: 0
-Time = 0.0975s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -5369,11 +5377,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 346.6125297 - 346.6125297
 liquid min/max T 334.5933492 - 334.5933492
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.771336 s  ClockTime = 16 s
+Time = 0.0975s
+
+ExecutionTime = 3.536172 s  ClockTime = 29 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -5504,11 +5512,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 346.3159288 - 346.3159288
 liquid min/max T 334.4542142 - 334.4542142
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.788139 s  ClockTime = 16 s
+Time = 0.1s
+
+ExecutionTime = 3.616996 s  ClockTime = 29 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1025s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -5639,11 +5647,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 346.0231761 - 346.0231761
 liquid min/max T 334.3200694 - 334.3200694
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.804454 s  ClockTime = 16 s
+Time = 0.1025s
+
+ExecutionTime = 3.695449 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.105s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -5774,11 +5782,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 345.7343522 - 345.7343522
 liquid min/max T 334.1906804 - 334.1906804
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.821048 s  ClockTime = 16 s
+Time = 0.105s
+
+ExecutionTime = 3.765232 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1075s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -5909,11 +5917,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 345.4495216 - 345.4495216
 liquid min/max T 334.0658259 - 334.0658259
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.838847 s  ClockTime = 16 s
+Time = 0.1075s
+
+ExecutionTime = 3.813233 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.11s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -6044,11 +6052,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 345.1687347 - 345.1687347
 liquid min/max T 333.9452974 - 333.9452974
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.861604 s  ClockTime = 16 s
+Time = 0.11s
+
+ExecutionTime = 3.915522 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1125s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -6179,11 +6187,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 344.8920294 - 344.8920294
 liquid min/max T 333.8288984 - 333.8288984
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.879244 s  ClockTime = 16 s
+Time = 0.1125s
+
+ExecutionTime = 3.997786 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.115s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -6314,11 +6322,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 344.6194322 - 344.6194322
 liquid min/max T 333.716443 - 333.716443
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.895426 s  ClockTime = 16 s
+Time = 0.115s
+
+ExecutionTime = 4.092711 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1175s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -6449,11 +6457,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 344.3509597 - 344.3509597
 liquid min/max T 333.6077558 - 333.6077558
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.911077 s  ClockTime = 16 s
+Time = 0.1175s
+
+ExecutionTime = 4.228168 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.12s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -6584,11 +6592,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 344.0866197 - 344.0866197
 liquid min/max T 333.5026709 - 333.5026709
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.926493 s  ClockTime = 16 s
+Time = 0.12s
+
+ExecutionTime = 4.277107 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1225s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -6719,11 +6727,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 343.826412 - 343.826412
 liquid min/max T 333.4010316 - 333.4010316
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.942843 s  ClockTime = 16 s
+Time = 0.1225s
+
+ExecutionTime = 4.328801 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.125s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -6854,11 +6862,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 343.5703296 - 343.5703296
 liquid min/max T 333.3026894 - 333.3026894
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.960162 s  ClockTime = 16 s
+Time = 0.125s
+
+ExecutionTime = 4.383244 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1275s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -6989,11 +6997,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 343.3183591 - 343.3183591
 liquid min/max T 333.2075038 - 333.2075038
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.977363 s  ClockTime = 16 s
+Time = 0.1275s
+
+ExecutionTime = 4.428737 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.13s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -7124,11 +7132,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 343.0704817 - 343.0704817
 liquid min/max T 333.1153417 - 333.1153417
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 1.99417 s  ClockTime = 16 s
+Time = 0.13s
+
+ExecutionTime = 4.477872 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1325s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -7259,11 +7267,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 342.8266737 - 342.8266737
 liquid min/max T 333.026077 - 333.026077
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.013525 s  ClockTime = 16 s
+Time = 0.1325s
+
+ExecutionTime = 4.518123 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.135s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -7394,11 +7402,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 342.5869072 - 342.5869072
 liquid min/max T 332.9395899 - 332.9395899
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.029377 s  ClockTime = 16 s
+Time = 0.135s
+
+ExecutionTime = 4.563323 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1375s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -7529,11 +7537,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 342.3511505 - 342.3511505
 liquid min/max T 332.8557671 - 332.8557671
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.044411 s  ClockTime = 16 s
+Time = 0.1375s
+
+ExecutionTime = 4.614726 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.14s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -7664,11 +7672,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 342.1193686 - 342.1193686
 liquid min/max T 332.7745008 - 332.7745008
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.060877 s  ClockTime = 16 s
+Time = 0.14s
+
+ExecutionTime = 4.663535 s  ClockTime = 30 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1425s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -7799,11 +7807,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 341.8915234 - 341.8915234
 liquid min/max T 332.6956887 - 332.6956887
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.077463 s  ClockTime = 16 s
+Time = 0.1425s
+
+ExecutionTime = 4.712085 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.145s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -7934,11 +7942,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 341.6675746 - 341.6675746
 liquid min/max T 332.6192335 - 332.6192335
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.097315 s  ClockTime = 17 s
+Time = 0.145s
+
+ExecutionTime = 4.758266 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1475s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -8069,11 +8077,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 341.4474794 - 341.4474794
 liquid min/max T 332.5450429 - 332.5450429
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.113165 s  ClockTime = 17 s
+Time = 0.1475s
+
+ExecutionTime = 4.796389 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.15s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -8204,11 +8212,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 341.2311934 - 341.2311934
 liquid min/max T 332.473029 - 332.473029
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.1297 s  ClockTime = 17 s
+Time = 0.15s
+
+ExecutionTime = 4.846035 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1525s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -8339,11 +8347,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 341.0186703 - 341.0186703
 liquid min/max T 332.4031081 - 332.4031081
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.144197 s  ClockTime = 17 s
+Time = 0.1525s
+
+ExecutionTime = 4.894138 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.155s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -8474,11 +8482,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 340.8098627 - 340.8098627
 liquid min/max T 332.3352007 - 332.3352007
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.1634 s  ClockTime = 17 s
+Time = 0.155s
+
+ExecutionTime = 4.943483 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1575s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -8609,11 +8617,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 340.6047218 - 340.6047218
 liquid min/max T 332.269231 - 332.269231
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.192578 s  ClockTime = 17 s
+Time = 0.1575s
+
+ExecutionTime = 4.982536 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.16s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -8744,11 +8752,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 340.4031981 - 340.4031981
 liquid min/max T 332.2051267 - 332.2051267
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.215442 s  ClockTime = 17 s
+Time = 0.16s
+
+ExecutionTime = 5.030642 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1625s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -8879,11 +8887,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 340.2052411 - 340.2052411
 liquid min/max T 332.1428191 - 332.1428191
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.232056 s  ClockTime = 17 s
+Time = 0.1625s
+
+ExecutionTime = 5.079452 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.165s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -9014,11 +9022,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 340.0107997 - 340.0107997
 liquid min/max T 332.0822424 - 332.0822424
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.248246 s  ClockTime = 17 s
+Time = 0.165s
+
+ExecutionTime = 5.124271 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1675s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -9149,11 +9157,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 339.8198226 - 339.8198226
 liquid min/max T 332.0233342 - 332.0233342
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.263651 s  ClockTime = 17 s
+Time = 0.1675s
+
+ExecutionTime = 5.175566 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.17s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -9284,11 +9292,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 339.632258 - 339.632258
 liquid min/max T 331.9660345 - 331.9660345
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.279156 s  ClockTime = 17 s
+Time = 0.17s
+
+ExecutionTime = 5.215378 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1725s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -9419,11 +9427,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 339.4480537 - 339.4480537
 liquid min/max T 331.9102864 - 331.9102864
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.293373 s  ClockTime = 17 s
+Time = 0.1725s
+
+ExecutionTime = 5.259074 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.175s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -9554,11 +9562,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 339.2671577 - 339.2671577
 liquid min/max T 331.8560354 - 331.8560354
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.309196 s  ClockTime = 17 s
+Time = 0.175s
+
+ExecutionTime = 5.300939 s  ClockTime = 31 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1775s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -9689,11 +9697,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 339.0895179 - 339.0895179
 liquid min/max T 331.8032293 - 331.8032293
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.324475 s  ClockTime = 17 s
+Time = 0.1775s
+
+ExecutionTime = 5.344656 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.18s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -9824,11 +9832,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 338.9150821 - 338.9150821
 liquid min/max T 331.7518184 - 331.7518184
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.340621 s  ClockTime = 17 s
+Time = 0.18s
+
+ExecutionTime = 5.409385 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1825s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -9959,11 +9967,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 338.7437985 - 338.7437985
 liquid min/max T 331.7017552 - 331.7017552
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.359934 s  ClockTime = 17 s
+Time = 0.1825s
+
+ExecutionTime = 5.492315 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.185s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -10094,11 +10102,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 338.5756153 - 338.5756153
 liquid min/max T 331.6529939 - 331.6529939
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.375929 s  ClockTime = 17 s
+Time = 0.185s
+
+ExecutionTime = 5.550573 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1875s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -10229,11 +10237,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 338.4104811 - 338.4104811
 liquid min/max T 331.6054911 - 331.6054911
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.391687 s  ClockTime = 17 s
+Time = 0.1875s
+
+ExecutionTime = 5.614141 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.19s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -10364,11 +10372,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 338.2483449 - 338.2483449
 liquid min/max T 331.559205 - 331.559205
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.407921 s  ClockTime = 17 s
+Time = 0.19s
+
+ExecutionTime = 5.66598 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1925s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -10499,11 +10507,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 338.0891559 - 338.0891559
 liquid min/max T 331.5140956 - 331.5140956
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.430287 s  ClockTime = 17 s
+Time = 0.1925s
+
+ExecutionTime = 5.72315 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.195s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -10634,11 +10642,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 337.9328639 - 337.9328639
 liquid min/max T 331.4701247 - 331.4701247
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.47264 s  ClockTime = 17 s
+Time = 0.195s
+
+ExecutionTime = 5.787201 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.1975s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -10769,11 +10777,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 337.779419 - 337.779419
 liquid min/max T 331.4272554 - 331.4272554
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.497303 s  ClockTime = 17 s
+Time = 0.1975s
+
+ExecutionTime = 5.864465 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -10904,11 +10912,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 337.628772 - 337.628772
 liquid min/max T 331.3854526 - 331.3854526
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.548219 s  ClockTime = 17 s
+Time = 0.2s
+
+ExecutionTime = 5.934509 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2025s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -11039,11 +11047,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 337.480874 - 337.480874
 liquid min/max T 331.3446826 - 331.3446826
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.592495 s  ClockTime = 17 s
+Time = 0.2025s
+
+ExecutionTime = 5.982243 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.205s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -11174,11 +11182,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 337.3356768 - 337.3356768
 liquid min/max T 331.3049128 - 331.3049128
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.627799 s  ClockTime = 17 s
+Time = 0.205s
+
+ExecutionTime = 6.027621 s  ClockTime = 32 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2075s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -11309,11 +11317,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 337.1931328 - 337.1931328
 liquid min/max T 331.2661122 - 331.2661122
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.649949 s  ClockTime = 17 s
+Time = 0.2075s
+
+ExecutionTime = 6.082156 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.21s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -11444,11 +11452,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 337.0531948 - 337.0531948
 liquid min/max T 331.2282509 - 331.2282509
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.670724 s  ClockTime = 17 s
+Time = 0.21s
+
+ExecutionTime = 6.147143 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2125s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -11579,11 +11587,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 336.9158164 - 336.9158164
 liquid min/max T 331.1913003 - 331.1913003
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.689205 s  ClockTime = 17 s
+Time = 0.2125s
+
+ExecutionTime = 6.197977 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.215s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -11714,11 +11722,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 336.7809518 - 336.7809518
 liquid min/max T 331.1552326 - 331.1552326
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.708888 s  ClockTime = 17 s
+Time = 0.215s
+
+ExecutionTime = 6.247386 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2175s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -11849,11 +11857,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 336.6485557 - 336.6485557
 liquid min/max T 331.1200214 - 331.1200214
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.732881 s  ClockTime = 17 s
+Time = 0.2175s
+
+ExecutionTime = 6.292814 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.22s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -11984,11 +11992,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 336.5185837 - 336.5185837
 liquid min/max T 331.0856412 - 331.0856412
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.756504 s  ClockTime = 17 s
+Time = 0.22s
+
+ExecutionTime = 6.35884 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2225s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -12119,11 +12127,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 336.3909917 - 336.3909917
 liquid min/max T 331.0520675 - 331.0520675
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.780997 s  ClockTime = 17 s
+Time = 0.2225s
+
+ExecutionTime = 6.416809 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.225s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -12254,11 +12262,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 336.2657365 - 336.2657365
 liquid min/max T 331.0192766 - 331.0192766
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.802664 s  ClockTime = 17 s
+Time = 0.225s
+
+ExecutionTime = 6.453606 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2275s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -12389,11 +12397,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 336.1427756 - 336.1427756
 liquid min/max T 330.9872458 - 330.9872458
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.827921 s  ClockTime = 17 s
+Time = 0.2275s
+
+ExecutionTime = 6.483198 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.23s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -12524,11 +12532,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 336.0220669 - 336.0220669
 liquid min/max T 330.9559533 - 330.9559533
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.851831 s  ClockTime = 17 s
+Time = 0.23s
+
+ExecutionTime = 6.52985 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2325s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -12659,11 +12667,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 335.9035693 - 335.9035693
 liquid min/max T 330.9253779 - 330.9253779
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.875416 s  ClockTime = 17 s
+Time = 0.2325s
+
+ExecutionTime = 6.590747 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.235s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -12794,11 +12802,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 335.7872421 - 335.7872421
 liquid min/max T 330.8954994 - 330.8954994
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.90822 s  ClockTime = 17 s
+Time = 0.235s
+
+ExecutionTime = 6.629025 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2375s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -12929,11 +12937,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 335.6730454 - 335.6730454
 liquid min/max T 330.8662981 - 330.8662981
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 2.952173 s  ClockTime = 17 s
+Time = 0.2375s
+
+ExecutionTime = 6.661409 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.24s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -13064,11 +13072,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 335.5609398 - 335.5609398
 liquid min/max T 330.8377552 - 330.8377552
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.023194 s  ClockTime = 17 s
+Time = 0.24s
+
+ExecutionTime = 6.692618 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2425s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -13199,11 +13207,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 335.4508868 - 335.4508868
 liquid min/max T 330.8098525 - 330.8098525
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.079606 s  ClockTime = 17 s
+Time = 0.2425s
+
+ExecutionTime = 6.74137 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.245s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -13334,11 +13342,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 335.3428485 - 335.3428485
 liquid min/max T 330.7825724 - 330.7825724
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.148131 s  ClockTime = 18 s
+Time = 0.245s
+
+ExecutionTime = 6.791928 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2475s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -13469,11 +13477,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 335.2367873 - 335.2367873
 liquid min/max T 330.7558979 - 330.7558979
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.192816 s  ClockTime = 18 s
+Time = 0.2475s
+
+ExecutionTime = 6.828267 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.25s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -13604,11 +13612,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 335.1326668 - 335.1326668
 liquid min/max T 330.7298127 - 330.7298127
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.263407 s  ClockTime = 18 s
+Time = 0.25s
+
+ExecutionTime = 6.871923 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2525s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -13739,11 +13747,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 335.0304508 - 335.0304508
 liquid min/max T 330.704301 - 330.704301
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.341682 s  ClockTime = 18 s
+Time = 0.2525s
+
+ExecutionTime = 6.904997 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.255s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -13874,11 +13882,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.9301039 - 334.9301039
 liquid min/max T 330.6793475 - 330.6793475
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.380843 s  ClockTime = 18 s
+Time = 0.255s
+
+ExecutionTime = 6.943037 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2575s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -14009,11 +14017,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.8315914 - 334.8315914
 liquid min/max T 330.6549374 - 330.6549374
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.478744 s  ClockTime = 18 s
+Time = 0.2575s
+
+ExecutionTime = 6.979946 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.26s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -14144,11 +14152,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.7348791 - 334.7348791
 liquid min/max T 330.6310564 - 330.6310564
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.557543 s  ClockTime = 18 s
+Time = 0.26s
+
+ExecutionTime = 7.012801 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2625s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -14279,11 +14287,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.6399334 - 334.6399334
 liquid min/max T 330.6076909 - 330.6076909
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.578342 s  ClockTime = 18 s
+Time = 0.2625s
+
+ExecutionTime = 7.055247 s  ClockTime = 33 s
 
 Courant Number mean: 0 max: 0
-Time = 0.265s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -14414,11 +14422,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.5467215 - 334.5467215
 liquid min/max T 330.5848274 - 330.5848274
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.595625 s  ClockTime = 18 s
+Time = 0.265s
+
+ExecutionTime = 7.09015 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2675s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -14549,11 +14557,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.4552109 - 334.4552109
 liquid min/max T 330.5624531 - 330.5624531
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.612304 s  ClockTime = 18 s
+Time = 0.2675s
+
+ExecutionTime = 7.123792 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.27s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -14684,11 +14692,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.36537 - 334.36537
 liquid min/max T 330.5405554 - 330.5405554
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.629537 s  ClockTime = 18 s
+Time = 0.27s
+
+ExecutionTime = 7.161303 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2725s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -14819,11 +14827,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.2771675 - 334.2771675
 liquid min/max T 330.5191223 - 330.5191223
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.649418 s  ClockTime = 18 s
+Time = 0.2725s
+
+ExecutionTime = 7.198218 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.275s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -14954,11 +14962,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.1905728 - 334.1905728
 liquid min/max T 330.4981421 - 330.4981421
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.666124 s  ClockTime = 18 s
+Time = 0.275s
+
+ExecutionTime = 7.230595 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2775s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -15089,11 +15097,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.105556 - 334.105556
 liquid min/max T 330.4776034 - 330.4776034
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.687806 s  ClockTime = 18 s
+Time = 0.2775s
+
+ExecutionTime = 7.272061 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.28s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -15224,11 +15232,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 334.0220875 - 334.0220875
 liquid min/max T 330.4574953 - 330.4574953
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.704569 s  ClockTime = 18 s
+Time = 0.28s
+
+ExecutionTime = 7.31222 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2825s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -15359,11 +15367,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.9401384 - 333.9401384
 liquid min/max T 330.4378072 - 330.4378072
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.720742 s  ClockTime = 18 s
+Time = 0.2825s
+
+ExecutionTime = 7.353281 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.285s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -15494,11 +15502,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.8596803 - 333.8596803
 liquid min/max T 330.4185287 - 330.4185287
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.736108 s  ClockTime = 18 s
+Time = 0.285s
+
+ExecutionTime = 7.395787 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2875s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -15629,11 +15637,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.7806854 - 333.7806854
 liquid min/max T 330.3996498 - 330.3996498
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.751342 s  ClockTime = 18 s
+Time = 0.2875s
+
+ExecutionTime = 7.43001 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.29s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -15764,11 +15772,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.7031264 - 333.7031264
 liquid min/max T 330.3811609 - 330.3811609
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.766886 s  ClockTime = 18 s
+Time = 0.29s
+
+ExecutionTime = 7.458925 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2925s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -15899,11 +15907,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.6269764 - 333.6269764
 liquid min/max T 330.3630526 - 330.3630526
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.782442 s  ClockTime = 18 s
+Time = 0.2925s
+
+ExecutionTime = 7.491605 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.295s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -16034,11 +16042,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.5522091 - 333.5522091
 liquid min/max T 330.3453157 - 330.3453157
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.798534 s  ClockTime = 18 s
+Time = 0.295s
+
+ExecutionTime = 7.526047 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.2975s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -16169,11 +16177,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.4787988 - 333.4787988
 liquid min/max T 330.3279415 - 330.3279415
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.813874 s  ClockTime = 18 s
+Time = 0.2975s
+
+ExecutionTime = 7.589103 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -16304,11 +16312,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.40672 - 333.40672
 liquid min/max T 330.3109212 - 330.3109212
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.829804 s  ClockTime = 18 s
+Time = 0.3s
+
+ExecutionTime = 7.620709 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3025s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -16439,11 +16447,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.3359479 - 333.3359479
 liquid min/max T 330.2942466 - 330.2942466
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.845816 s  ClockTime = 18 s
+Time = 0.3025s
+
+ExecutionTime = 7.648723 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.305s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -16574,11 +16582,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.2664583 - 333.2664583
 liquid min/max T 330.2779096 - 330.2779096
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.861803 s  ClockTime = 18 s
+Time = 0.305s
+
+ExecutionTime = 7.682919 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3075s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -16709,11 +16717,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.198227 - 333.198227
 liquid min/max T 330.2619024 - 330.2619024
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.877697 s  ClockTime = 18 s
+Time = 0.3075s
+
+ExecutionTime = 7.727116 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.31s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -16844,11 +16852,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.1312308 - 333.1312308
 liquid min/max T 330.2462172 - 330.2462172
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.898838 s  ClockTime = 18 s
+Time = 0.31s
+
+ExecutionTime = 7.832809 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3125s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -16979,11 +16987,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.0654466 - 333.0654466
 liquid min/max T 330.2308467 - 330.2308467
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.914976 s  ClockTime = 18 s
+Time = 0.3125s
+
+ExecutionTime = 7.939847 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.315s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -17114,11 +17122,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 333.0008518 - 333.0008518
 liquid min/max T 330.2157837 - 330.2157837
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.930953 s  ClockTime = 18 s
+Time = 0.315s
+
+ExecutionTime = 8.015317 s  ClockTime = 34 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3175s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -17249,11 +17257,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.9374244 - 332.9374244
 liquid min/max T 330.2010211 - 330.2010211
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.947526 s  ClockTime = 18 s
+Time = 0.3175s
+
+ExecutionTime = 8.111869 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.32s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -17384,11 +17392,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.8751425 - 332.8751425
 liquid min/max T 330.1865522 - 330.1865522
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.963749 s  ClockTime = 18 s
+Time = 0.32s
+
+ExecutionTime = 8.19811 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3225s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -17519,11 +17527,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.8139849 - 332.8139849
 liquid min/max T 330.1723702 - 330.1723702
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.979022 s  ClockTime = 18 s
+Time = 0.3225s
+
+ExecutionTime = 8.285086 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.325s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -17654,11 +17662,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.7539307 - 332.7539307
 liquid min/max T 330.1584688 - 330.1584688
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 3.995152 s  ClockTime = 18 s
+Time = 0.325s
+
+ExecutionTime = 8.41405 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3275s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -17789,11 +17797,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.6949594 - 332.6949594
 liquid min/max T 330.1448418 - 330.1448418
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.011055 s  ClockTime = 18 s
+Time = 0.3275s
+
+ExecutionTime = 8.47754 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.33s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -17924,11 +17932,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.6370509 - 332.6370509
 liquid min/max T 330.1314828 - 330.1314828
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.026497 s  ClockTime = 18 s
+Time = 0.33s
+
+ExecutionTime = 8.554259 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3325s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -18059,11 +18067,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.5801855 - 332.5801855
 liquid min/max T 330.1183862 - 330.1183862
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.044628 s  ClockTime = 18 s
+Time = 0.3325s
+
+ExecutionTime = 8.611705 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.335s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -18194,11 +18202,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.5243438 - 332.5243438
 liquid min/max T 330.105546 - 330.105546
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.059631 s  ClockTime = 18 s
+Time = 0.335s
+
+ExecutionTime = 8.65166 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3375s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -18329,11 +18337,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.469507 - 332.469507
 liquid min/max T 330.0929566 - 330.0929566
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.074101 s  ClockTime = 18 s
+Time = 0.3375s
+
+ExecutionTime = 8.708185 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.34s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -18464,11 +18472,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.4156563 - 332.4156563
 liquid min/max T 330.0806126 - 330.0806126
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.089457 s  ClockTime = 19 s
+Time = 0.34s
+
+ExecutionTime = 8.767097 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3425s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -18599,11 +18607,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.3627736 - 332.3627736
 liquid min/max T 330.0685086 - 330.0685086
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.104898 s  ClockTime = 19 s
+Time = 0.3425s
+
+ExecutionTime = 8.823884 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.345s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -18734,11 +18742,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.310841 - 332.310841
 liquid min/max T 330.0566394 - 330.0566394
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.121426 s  ClockTime = 19 s
+Time = 0.345s
+
+ExecutionTime = 8.886215 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3475s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -18869,11 +18877,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.2598408 - 332.2598408
 liquid min/max T 330.045 - 330.045
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.138162 s  ClockTime = 19 s
+Time = 0.3475s
+
+ExecutionTime = 8.929272 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.35s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -19004,11 +19012,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.2097559 - 332.2097559
 liquid min/max T 330.0335854 - 330.0335854
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.1587 s  ClockTime = 19 s
+Time = 0.35s
+
+ExecutionTime = 8.983701 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3525s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -19139,11 +19147,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.1605694 - 332.1605694
 liquid min/max T 330.0223908 - 330.0223908
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.174906 s  ClockTime = 19 s
+Time = 0.3525s
+
+ExecutionTime = 9.03654 s  ClockTime = 35 s
 
 Courant Number mean: 0 max: 0
-Time = 0.355s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -19274,11 +19282,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.1122647 - 332.1122647
 liquid min/max T 330.0114114 - 330.0114114
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.191743 s  ClockTime = 19 s
+Time = 0.355s
+
+ExecutionTime = 9.089352 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3575s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -19409,11 +19417,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.0648256 - 332.0648256
 liquid min/max T 330.0006429 - 330.0006429
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.208027 s  ClockTime = 19 s
+Time = 0.3575s
+
+ExecutionTime = 9.145087 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.36s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -19544,11 +19552,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 332.0182361 - 332.0182361
 liquid min/max T 329.9900806 - 329.9900806
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.22471 s  ClockTime = 19 s
+Time = 0.36s
+
+ExecutionTime = 9.24247 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3625s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -19679,11 +19687,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.9724807 - 331.9724807
 liquid min/max T 329.9797202 - 329.9797202
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.241706 s  ClockTime = 19 s
+Time = 0.3625s
+
+ExecutionTime = 9.333963 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.365s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -19814,11 +19822,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.9275438 - 331.9275438
 liquid min/max T 329.9695575 - 329.9695575
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.258249 s  ClockTime = 19 s
+Time = 0.365s
+
+ExecutionTime = 9.409186 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3675s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -19949,11 +19957,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.8834107 - 331.8834107
 liquid min/max T 329.9595884 - 329.9595884
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.273566 s  ClockTime = 19 s
+Time = 0.3675s
+
+ExecutionTime = 9.492953 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.37s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -20084,11 +20092,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.8400663 - 331.8400663
 liquid min/max T 329.9498088 - 329.9498088
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.289775 s  ClockTime = 19 s
+Time = 0.37s
+
+ExecutionTime = 9.585997 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3725s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -20219,11 +20227,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.7974964 - 331.7974964
 liquid min/max T 329.9402148 - 329.9402148
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.306619 s  ClockTime = 19 s
+Time = 0.3725s
+
+ExecutionTime = 9.660212 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.375s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -20354,11 +20362,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.7556866 - 331.7556866
 liquid min/max T 329.9308025 - 329.9308025
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.324164 s  ClockTime = 19 s
+Time = 0.375s
+
+ExecutionTime = 9.750852 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3775s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -20489,11 +20497,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.7146231 - 331.7146231
 liquid min/max T 329.9215682 - 329.9215682
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.35415 s  ClockTime = 19 s
+Time = 0.3775s
+
+ExecutionTime = 9.860547 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.38s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -20624,11 +20632,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.6742922 - 331.6742922
 liquid min/max T 329.9125082 - 329.9125082
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.375479 s  ClockTime = 19 s
+Time = 0.38s
+
+ExecutionTime = 9.944289 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3825s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -20759,11 +20767,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.6346805 - 331.6346805
 liquid min/max T 329.903619 - 329.903619
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.39568 s  ClockTime = 19 s
+Time = 0.3825s
+
+ExecutionTime = 10.034323 s  ClockTime = 36 s
 
 Courant Number mean: 0 max: 0
-Time = 0.385s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -20894,11 +20902,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.5957749 - 331.5957749
 liquid min/max T 329.8948971 - 329.8948971
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.417211 s  ClockTime = 19 s
+Time = 0.385s
+
+ExecutionTime = 10.092753 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3875s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -21029,11 +21037,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.5575623 - 331.5575623
 liquid min/max T 329.886339 - 329.886339
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.44853 s  ClockTime = 19 s
+Time = 0.3875s
+
+ExecutionTime = 10.152347 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.39s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -21164,11 +21172,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.5200303 - 331.5200303
 liquid min/max T 329.8779414 - 329.8779414
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.473867 s  ClockTime = 19 s
+Time = 0.39s
+
+ExecutionTime = 10.242328 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3925s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -21299,11 +21307,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.4831663 - 331.4831663
 liquid min/max T 329.8697011 - 329.8697011
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.498284 s  ClockTime = 19 s
+Time = 0.3925s
+
+ExecutionTime = 10.323237 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.395s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -21434,11 +21442,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.4469582 - 331.4469582
 liquid min/max T 329.8616149 - 329.8616149
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.518002 s  ClockTime = 19 s
+Time = 0.395s
+
+ExecutionTime = 10.448522 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.3975s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -21569,11 +21577,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.4113941 - 331.4113941
 liquid min/max T 329.8536797 - 329.8536797
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.537398 s  ClockTime = 19 s
+Time = 0.3975s
+
+ExecutionTime = 10.512149 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -21704,11 +21712,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.3764622 - 331.3764622
 liquid min/max T 329.8458924 - 329.8458924
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.554493 s  ClockTime = 19 s
+Time = 0.4s
+
+ExecutionTime = 10.621846 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4025s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -21839,11 +21847,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.342151 - 331.342151
 liquid min/max T 329.8382502 - 329.8382502
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.571101 s  ClockTime = 19 s
+Time = 0.4025s
+
+ExecutionTime = 10.737728 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.405s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -21974,11 +21982,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.3084492 - 331.3084492
 liquid min/max T 329.83075 - 329.83075
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.588052 s  ClockTime = 19 s
+Time = 0.405s
+
+ExecutionTime = 10.848952 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4075s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -22109,11 +22117,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.2753457 - 331.2753457
 liquid min/max T 329.8233892 - 329.8233892
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.605098 s  ClockTime = 19 s
+Time = 0.4075s
+
+ExecutionTime = 10.935902 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.41s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -22244,11 +22252,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.2428298 - 331.2428298
 liquid min/max T 329.8161648 - 329.8161648
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.623436 s  ClockTime = 19 s
+Time = 0.41s
+
+ExecutionTime = 11.027037 s  ClockTime = 37 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4125s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -22379,11 +22387,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.2108906 - 331.2108906
 liquid min/max T 329.8090742 - 329.8090742
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.645351 s  ClockTime = 19 s
+Time = 0.4125s
+
+ExecutionTime = 11.124304 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.415s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -22514,11 +22522,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.1795179 - 331.1795179
 liquid min/max T 329.8021148 - 329.8021148
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.66775 s  ClockTime = 19 s
+Time = 0.415s
+
+ExecutionTime = 11.210236 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4175s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -22649,11 +22657,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.1487012 - 331.1487012
 liquid min/max T 329.795284 - 329.795284
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.686939 s  ClockTime = 19 s
+Time = 0.4175s
+
+ExecutionTime = 11.286986 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.42s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -22784,11 +22792,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.1184306 - 331.1184306
 liquid min/max T 329.7885792 - 329.7885792
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.704406 s  ClockTime = 19 s
+Time = 0.42s
+
+ExecutionTime = 11.360794 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4225s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -22919,11 +22927,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.0886961 - 331.0886961
 liquid min/max T 329.781998 - 329.781998
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.727417 s  ClockTime = 19 s
+Time = 0.4225s
+
+ExecutionTime = 11.443262 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.425s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -23054,11 +23062,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.0594881 - 331.0594881
 liquid min/max T 329.7755379 - 329.7755379
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.746908 s  ClockTime = 19 s
+Time = 0.425s
+
+ExecutionTime = 11.537343 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4275s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -23189,11 +23197,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.030797 - 331.030797
 liquid min/max T 329.7691966 - 329.7691966
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.763885 s  ClockTime = 19 s
+Time = 0.4275s
+
+ExecutionTime = 11.599218 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.43s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -23324,11 +23332,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 331.0026135 - 331.0026135
 liquid min/max T 329.7629718 - 329.7629718
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.781924 s  ClockTime = 19 s
+Time = 0.43s
+
+ExecutionTime = 11.690522 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4325s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -23459,11 +23467,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.9749285 - 330.9749285
 liquid min/max T 329.7568611 - 329.7568611
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.7987 s  ClockTime = 19 s
+Time = 0.4325s
+
+ExecutionTime = 11.795415 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.435s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -23594,11 +23602,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.9477329 - 330.9477329
 liquid min/max T 329.7508625 - 329.7508625
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.825308 s  ClockTime = 19 s
+Time = 0.435s
+
+ExecutionTime = 11.884495 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4375s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -23729,11 +23737,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.9210179 - 330.9210179
 liquid min/max T 329.7449737 - 329.7449737
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.854052 s  ClockTime = 19 s
+Time = 0.4375s
+
+ExecutionTime = 11.969622 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.44s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -23864,11 +23872,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.8947749 - 330.8947749
 liquid min/max T 329.7391925 - 329.7391925
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.871842 s  ClockTime = 19 s
+Time = 0.44s
+
+ExecutionTime = 12.032672 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4425s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -23999,11 +24007,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.8689953 - 330.8689953
 liquid min/max T 329.733517 - 329.733517
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.895367 s  ClockTime = 19 s
+Time = 0.4425s
+
+ExecutionTime = 12.087712 s  ClockTime = 38 s
 
 Courant Number mean: 0 max: 0
-Time = 0.445s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -24134,11 +24142,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.8436709 - 330.8436709
 liquid min/max T 329.7279451 - 329.7279451
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.922385 s  ClockTime = 19 s
+Time = 0.445s
+
+ExecutionTime = 12.16822 s  ClockTime = 39 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4475s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -24269,11 +24277,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.8187934 - 330.8187934
 liquid min/max T 329.7224748 - 329.7224748
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.939742 s  ClockTime = 19 s
+Time = 0.4475s
+
+ExecutionTime = 12.248447 s  ClockTime = 39 s
 
 Courant Number mean: 0 max: 0
-Time = 0.45s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -24404,11 +24412,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.7943548 - 330.7943548
 liquid min/max T 329.7171041 - 329.7171041
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.963519 s  ClockTime = 19 s
+Time = 0.45s
+
+ExecutionTime = 12.375078 s  ClockTime = 39 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4525s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -24539,11 +24547,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.7703473 - 330.7703473
 liquid min/max T 329.7118311 - 329.7118311
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 4.996837 s  ClockTime = 19 s
+Time = 0.4525s
+
+ExecutionTime = 12.43887 s  ClockTime = 39 s
 
 Courant Number mean: 0 max: 0
-Time = 0.455s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -24674,11 +24682,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.746763 - 330.746763
 liquid min/max T 329.7066541 - 329.7066541
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.022673 s  ClockTime = 19 s
+Time = 0.455s
+
+ExecutionTime = 12.551439 s  ClockTime = 39 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4575s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -24809,11 +24817,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.7235944 - 330.7235944
 liquid min/max T 329.701571 - 329.701571
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.060005 s  ClockTime = 19 s
+Time = 0.4575s
+
+ExecutionTime = 12.636108 s  ClockTime = 39 s
 
 Courant Number mean: 0 max: 0
-Time = 0.46s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -24944,11 +24952,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.700834 - 330.700834
 liquid min/max T 329.6965803 - 329.6965803
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.07855 s  ClockTime = 19 s
+Time = 0.46s
+
+ExecutionTime = 12.719658 s  ClockTime = 39 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4625s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -25079,11 +25087,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.6784746 - 330.6784746
 liquid min/max T 329.69168 - 329.69168
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.094834 s  ClockTime = 20 s
+Time = 0.4625s
+
+ExecutionTime = 12.824987 s  ClockTime = 39 s
 
 Courant Number mean: 0 max: 0
-Time = 0.465s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -25214,11 +25222,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.6565089 - 330.6565089
 liquid min/max T 329.6868685 - 329.6868685
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.110918 s  ClockTime = 20 s
+Time = 0.465s
+
+ExecutionTime = 12.936367 s  ClockTime = 39 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4675s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -25349,11 +25357,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.6349299 - 330.6349299
 liquid min/max T 329.6821441 - 329.6821441
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.128153 s  ClockTime = 20 s
+Time = 0.4675s
+
+ExecutionTime = 13.030814 s  ClockTime = 39 s
 
 Courant Number mean: 0 max: 0
-Time = 0.47s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -25484,11 +25492,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.6137306 - 330.6137306
 liquid min/max T 329.6775052 - 329.6775052
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.144351 s  ClockTime = 20 s
+Time = 0.47s
+
+ExecutionTime = 13.112713 s  ClockTime = 40 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4725s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -25619,11 +25627,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.5929043 - 330.5929043
 liquid min/max T 329.6729501 - 329.6729501
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.161075 s  ClockTime = 20 s
+Time = 0.4725s
+
+ExecutionTime = 13.236619 s  ClockTime = 40 s
 
 Courant Number mean: 0 max: 0
-Time = 0.475s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -25754,11 +25762,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.5724443 - 330.5724443
 liquid min/max T 329.6684773 - 329.6684773
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.177982 s  ClockTime = 20 s
+Time = 0.475s
+
+ExecutionTime = 13.347457 s  ClockTime = 40 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4775s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -25889,11 +25897,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.5523441 - 330.5523441
 liquid min/max T 329.6640853 - 329.6640853
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.194303 s  ClockTime = 20 s
+Time = 0.4775s
+
+ExecutionTime = 13.446368 s  ClockTime = 40 s
 
 Courant Number mean: 0 max: 0
-Time = 0.48s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -26024,11 +26032,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.5325973 - 330.5325973
 liquid min/max T 329.6597724 - 329.6597724
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.210294 s  ClockTime = 20 s
+Time = 0.48s
+
+ExecutionTime = 13.602128 s  ClockTime = 40 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4825s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -26159,11 +26167,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.5131974 - 330.5131974
 liquid min/max T 329.6555372 - 329.6555372
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.226604 s  ClockTime = 20 s
+Time = 0.4825s
+
+ExecutionTime = 13.715881 s  ClockTime = 40 s
 
 Courant Number mean: 0 max: 0
-Time = 0.485s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -26294,11 +26302,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.4941384 - 330.4941384
 liquid min/max T 329.6513783 - 329.6513783
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.24387 s  ClockTime = 20 s
+Time = 0.485s
+
+ExecutionTime = 13.812294 s  ClockTime = 40 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4875s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -26429,11 +26437,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.4754142 - 330.4754142
 liquid min/max T 329.6472942 - 329.6472942
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.260737 s  ClockTime = 20 s
+Time = 0.4875s
+
+ExecutionTime = 13.941115 s  ClockTime = 40 s
 
 Courant Number mean: 0 max: 0
-Time = 0.49s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -26564,11 +26572,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.4570187 - 330.4570187
 liquid min/max T 329.6432835 - 329.6432835
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.28074 s  ClockTime = 20 s
+Time = 0.49s
+
+ExecutionTime = 14.068637 s  ClockTime = 40 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4925s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -26699,11 +26707,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.4389462 - 330.4389462
 liquid min/max T 329.6393449 - 329.6393449
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.300379 s  ClockTime = 20 s
+Time = 0.4925s
+
+ExecutionTime = 14.160935 s  ClockTime = 41 s
 
 Courant Number mean: 0 max: 0
-Time = 0.495s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -26834,11 +26842,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.4211909 - 330.4211909
 liquid min/max T 329.6354771 - 329.6354771
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.315874 s  ClockTime = 20 s
+Time = 0.495s
+
+ExecutionTime = 14.290309 s  ClockTime = 41 s
 
 Courant Number mean: 0 max: 0
-Time = 0.4975s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -26969,11 +26977,11 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.4037472 - 330.4037472
 liquid min/max T 329.6316786 - 329.6316786
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.332555 s  ClockTime = 20 s
+Time = 0.4975s
+
+ExecutionTime = 14.419356 s  ClockTime = 41 s
 
 Courant Number mean: 0 max: 0
-Time = 0.5s
-
 PIMPLE: Iteration 1
 MULES: Solving for alpha.gas
 MULES: Solving for alpha.liquid
@@ -27104,7 +27112,9 @@ diagonal:  Solving for e.liquid, Initial residual = 0, Final residual = 0, No It
 gas min/max T 330.3866094 - 330.3866094
 liquid min/max T 329.6279483 - 329.6279483
 diagonal:  Solving for p_rgh, Initial residual = 0, Final residual = 0, No Iterations 0
-ExecutionTime = 5.347801 s  ClockTime = 20 s
+Time = 0.5s
+
+ExecutionTime = 14.579102 s  ClockTime = 41 s
 
 End
 

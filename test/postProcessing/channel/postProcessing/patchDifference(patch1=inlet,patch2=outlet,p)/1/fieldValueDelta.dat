@@ -1,5 +1,0 @@
-# Source1         : patchDifference(patch1=inlet,patch2=outlet,p).region1
-# Source2         : patchDifference(patch1=inlet,patch2=outlet,p).region2
-# Operation       : subtract
-# Time            	p
-1                 	1.9260000001e-01

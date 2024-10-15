@@ -1,55 +1,13 @@
-/*---------------------------------------------------------------------------*\
-  =========                 |
-  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
-   \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  12
-     \\/     M anipulation  |
-\*---------------------------------------------------------------------------*/
-Build  : 12-cc05c1b03c38
-Exec   : Test-fvMeshTools -parallel
-Date   : Oct 10 2024
-Time   : 23:13:13
-Host   : "DESKTOP-KBPC6IC"
-PID    : 3842
-I/O    : uncollated
-Case   : /home/as/openfoam/OpenFOAM-12/test/fvMeshTools/cavity
-nProcs : 3
-Slaves : 
-2
-(
-"DESKTOP-KBPC6IC.3843"
-"DESKTOP-KBPC6IC.3844"
-)
+--------------------------------------------------------------------------
+mpirun was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
 
-Pstream initialised with:
-    floatTransfer      : false
-    nProcsSimpleSum    : 0
-    commsType          : nonBlocking
-    polling iterations : 0
-sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
-fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
-allowSystemOperations : Allowing user-supplied system call operations
+NOTE: A common cause for this error is misspelling a mpirun command
+      line parameter option (remember that mpirun interprets the first
+      unrecognized command line token as the executable).
 
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-Create time
-
-Create mesh for time = 0
-
-Reading geometric fields
-
-Reading volScalarField p
-Reading volVectorField U
-Reading pointVectorField pointDisplacement
-Inserted patch myWall type wall at index 4
-Writing mesh with added patch to 0.005
-Removing patch zeroSizedPatch
-Writing mesh with removed patch to 0.01
-[0] Inserted patch procBoundary0to1_extra type processor at index 6
-Writing mesh with added (local) patch to 0.015
-[1] Inserted patch procBoundary1to0_extra type processor at index 6
-[0] Removing patch procBoundary0to1_extra
-Writing mesh with removed (local) patch to 0.02
-[1] Removing patch procBoundary1to0_extra
-End
-
-Finalising parallel run
+Node:       DESKTOP-KBPC6IC
+Executable: Test-fvMeshTools
+--------------------------------------------------------------------------
+3 total processes failed to start

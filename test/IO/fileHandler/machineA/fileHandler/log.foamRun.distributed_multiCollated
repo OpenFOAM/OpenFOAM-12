@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : foamRun -parallel -fileHandler collated -roots ("/home/as/openfoam/OpenFOAM-12/test/IO/fileHandler/machineA" "/home/as/openfoam/OpenFOAM-12/test/IO/fileHandler/machineB" "/home/as/openfoam/OpenFOAM-12/test/IO/fileHandler/machineB")
-Date   : Oct 10 2024
-Time   : 23:10:29
+Date   : Oct 15 2024
+Time   : 05:52:33
 Host   : "DESKTOP-KBPC6IC"
-PID    : 27404
+PID    : 212487
 I/O    : collated (maxThreadFileBufferSize 2e+09)
          Threading activated since maxThreadFileBufferSize > 0.
          Requires large enough buffer to collect all data or thread support 
@@ -18,16 +18,16 @@ I/O    : collated (maxThreadFileBufferSize 2e+09)
          threading by setting maxThreadFileBufferSize to 0 in
          $FOAM_ETC/controlDict
          IO nodes:
-             "DESKTOP-KBPC6IC.27404"
-             "DESKTOP-KBPC6IC.27406"
+             "DESKTOP-KBPC6IC.212487"
+             "DESKTOP-KBPC6IC.212489"
 Case   : /home/as/openfoam/OpenFOAM-12/test/IO/fileHandler/machineA/fileHandler
 nProcs : 4
 Slaves : 
 3
 (
-"DESKTOP-KBPC6IC.27405"
-"DESKTOP-KBPC6IC.27406"
-"DESKTOP-KBPC6IC.27407"
+"DESKTOP-KBPC6IC.212488"
+"DESKTOP-KBPC6IC.212489"
+"DESKTOP-KBPC6IC.212492"
 )
 
 Roots  : 
@@ -92,16 +92,18 @@ PIMPLE: Operating solver in PISO mode
 Starting time loop
 
 Courant Number mean: 0 max: 0
-Time = 0.00025s
-
 
 Solving 3-D cloud cloud
+
+Cloud: cloud injector: model1
+    Added 71 new parcels
+
 Cloud: cloud
-    Current number of parcels       = 71
-    Current mass in system          = 0.00774083
-    Linear momentum                 = (0 -1.89607e-05 0)
-   |Linear momentum|                = 1.89607e-05
-    Linear kinetic energy           = 2.32216e-08
+    Current number of parcels       = 284
+    Current mass in system          = 0.0309633
+    Linear momentum                 = (0 -3.79215e-05 0)
+   |Linear momentum|                = 3.79215e-05
+    Linear kinetic energy           = 2.7866e-08
     model1:
         number of parcels added     = 71
         mass introduced             = 0.00774083
@@ -113,7 +115,9 @@ GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0
 GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0, cumulative = 0
-ExecutionTime = 0.417254 s  ClockTime = 0 s
+Time = 0.00025s
+
+ExecutionTime = 1.21352 s  ClockTime = 2 s
 
 End
 

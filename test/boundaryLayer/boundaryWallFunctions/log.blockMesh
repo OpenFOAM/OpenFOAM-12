@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : blockMesh
-Date   : Oct 10 2024
-Time   : 23:10:32
+Date   : Oct 15 2024
+Time   : 05:52:42
 Host   : "DESKTOP-KBPC6IC"
-PID    : 27447
+PID    : 213237
 I/O    : uncollated
 Case   : /home/as/openfoam/OpenFOAM-12/test/boundaryLayer/boundaryWallFunctions
 nProcs : 1

@@ -7,19 +7,19 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : foamRun -parallel -fileHandler uncollated
-Date   : Oct 10 2024
-Time   : 23:10:27
+Date   : Oct 15 2024
+Time   : 05:52:28
 Host   : "DESKTOP-KBPC6IC"
-PID    : 27361
+PID    : 212155
 I/O    : uncollated
 Case   : /home/as/openfoam/OpenFOAM-12/test/IO/fileHandler
 nProcs : 4
 Slaves : 
 3
 (
-"DESKTOP-KBPC6IC.27362"
-"DESKTOP-KBPC6IC.27363"
-"DESKTOP-KBPC6IC.27364"
+"DESKTOP-KBPC6IC.212157"
+"DESKTOP-KBPC6IC.212159"
+"DESKTOP-KBPC6IC.212160"
 )
 
 Pstream initialised with:
@@ -76,16 +76,18 @@ PIMPLE: Operating solver in PISO mode
 Starting time loop
 
 Courant Number mean: 0 max: 0
-Time = 0.00025s
-
 
 Solving 3-D cloud cloud
+
+Cloud: cloud injector: model1
+    Added 71 new parcels
+
 Cloud: cloud
-    Current number of parcels       = 71
-    Current mass in system          = 0.00774083
-    Linear momentum                 = (0 -1.89607e-05 0)
-   |Linear momentum|                = 1.89607e-05
-    Linear kinetic energy           = 2.32216e-08
+    Current number of parcels       = 284
+    Current mass in system          = 0.0309633
+    Linear momentum                 = (0 -3.79215e-05 0)
+   |Linear momentum|                = 3.79215e-05
+    Linear kinetic energy           = 2.7866e-08
     model1:
         number of parcels added     = 71
         mass introduced             = 0.00774083
@@ -97,7 +99,9 @@ GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0
 GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0, cumulative = 0
-ExecutionTime = 0.375883 s  ClockTime = 0 s
+Time = 0.00025s
+
+ExecutionTime = 1.56105 s  ClockTime = 2 s
 
 End
 

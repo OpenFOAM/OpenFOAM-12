@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 12-cc05c1b03c38
 Exec   : foamRun -parallel -fileHandler collated
-Date   : Oct 10 2024
-Time   : 23:10:23
+Date   : Oct 15 2024
+Time   : 05:52:22
 Host   : "DESKTOP-KBPC6IC"
-PID    : 27312
+PID    : 211813
 I/O    : collated (maxThreadFileBufferSize 2e+09)
          Threading activated since maxThreadFileBufferSize > 0.
          Requires large enough buffer to collect all data or thread support 
@@ -18,16 +18,16 @@ I/O    : collated (maxThreadFileBufferSize 2e+09)
          threading by setting maxThreadFileBufferSize to 0 in
          $FOAM_ETC/controlDict
          IO nodes:
-             "DESKTOP-KBPC6IC.27312"
-             "DESKTOP-KBPC6IC.27314"
+             "DESKTOP-KBPC6IC.211813"
+             "DESKTOP-KBPC6IC.211816"
 Case   : /home/as/openfoam/OpenFOAM-12/test/IO/fileHandler
 nProcs : 4
 Slaves : 
 3
 (
-"DESKTOP-KBPC6IC.27313"
-"DESKTOP-KBPC6IC.27314"
-"DESKTOP-KBPC6IC.27315"
+"DESKTOP-KBPC6IC.211814"
+"DESKTOP-KBPC6IC.211816"
+"DESKTOP-KBPC6IC.211817"
 )
 
 Pstream initialised with:
@@ -84,16 +84,18 @@ PIMPLE: Operating solver in PISO mode
 Starting time loop
 
 Courant Number mean: 0 max: 0
-Time = 0.0002s
-
 
 Solving 3-D cloud cloud
+
+Cloud: cloud injector: model1
+    Added 71 new parcels
+
 Cloud: cloud
-    Current number of parcels       = 71
-    Current mass in system          = 0.00774083
-    Linear momentum                 = (0 -1.51686e-05 0)
-   |Linear momentum|                = 1.51686e-05
-    Linear kinetic energy           = 1.48619e-08
+    Current number of parcels       = 213
+    Current mass in system          = 0.0232225
+    Linear momentum                 = (0 -2.27529e-05 0)
+   |Linear momentum|                = 2.27529e-05
+    Linear kinetic energy           = 1.30041e-08
     model1:
         number of parcels added     = 71
         mass introduced             = 0.00774083
@@ -105,7 +107,9 @@ GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0
 GAMG:  Solving for p, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 0, global = 0, cumulative = 0
-ExecutionTime = 0.38355 s  ClockTime = 0 s
+Time = 0.0002s
+
+ExecutionTime = 1.54654 s  ClockTime = 2 s
 
 End
 
