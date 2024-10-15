@@ -1,0 +1,5 @@
+# Selection :     sampledSurface(triSurfaceDifference(name1=nearInlet.obj,name2=nearOutlet.obj,p).region1)
+# Faces  :        80
+# Area   :        1.0000000000e-01
+# Time            	areaAverage(p)
+1                 	1.0000019023e+05
