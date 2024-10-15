@@ -27,7 +27,7 @@ thermoType
 
 species         ( air H2O C3H8O );
 
-defaultSpecie   H2O;
+defaultSpecie   C3H8O;
 
 air
 {

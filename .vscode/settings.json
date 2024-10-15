@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "Makefile": "cmake",
+        "GNUMakefile": "gmake",
+        "*.am": "cmake",
+        "*.c": "c",
+        "*.py": "python",
+        "*.json": "jsonc",
+        "*.vtk": "python",
+        "Test-fvMeshTools.C": "cpp"
+    }
+}
