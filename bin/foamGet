@@ -295,7 +295,7 @@ read -r nFile
 file="$(setFile "$files" "$nFile")"
 if tgt="$(setTgt "$prefix" "$file" "$tgt" "$region")"
 then
-    cpFile "$files" "$tgt" && exit 0
+    cpFile "$file" "$tgt" && exit 0
 else
     error "target directory does not exist: '$tgt'"
 fi
