@@ -23,6 +23,8 @@ RAS
 
     printCoeffs         on;
 
+    nutMaxCoeff         1e8;
+
     kEpsilonCoeffs
     {
         Cmu         0.09;

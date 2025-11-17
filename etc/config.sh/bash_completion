@@ -31,6 +31,11 @@
 #------------------------------------------------------------------------------
 # shellcheck disable=SC2155,SC2207,SC2086
 
+_region ()
+{
+    find . -name polyMesh -type d |     awk -F '/' '{print $(NF-1)}' |     grep -v constant |     sort -u | xargs
+}
+
 _solver ()
 {
     foamToC -table solver | sed '1,/Contents/d' | awk '{print $1}' | xargs
@@ -285,8 +290,9 @@ _blockMesh_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -libs|-region)
+        -libs)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -395,8 +401,9 @@ _changeDictionary_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-instance|-libs|-region|-roots|-subDict)
+        -hostRoots|-instance|-libs|-roots|-subDict)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -422,8 +429,9 @@ _checkMesh_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-nonOrthThreshold|-region|-roots|-setFormat|-skewThreshold|-surfaceFormat)
+        -hostRoots|-libs|-nonOrthThreshold|-roots|-setFormat|-skewThreshold|-surfaceFormat)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -550,8 +558,9 @@ _createBaffles_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -575,8 +584,9 @@ _createEngineZones_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -libs|-region)
+        -libs)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -600,8 +610,9 @@ _createExternalCoupledPatchGeometry_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -627,8 +638,9 @@ _createNonConformalCouples_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -654,8 +666,9 @@ _createPatch_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -712,8 +725,9 @@ _decomposePar_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -libs|-region)
+        -libs)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -837,8 +851,9 @@ _engineCompRatio_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -cellSet|-cellZone|-hostRoots|-libs|-region|-roots)
+        -cellSet|-cellZone|-hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -958,8 +973,9 @@ _extrudeMesh_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -985,8 +1001,9 @@ _extrudeToRegionMesh_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -1012,8 +1029,9 @@ _faceAgglomerate_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -1209,8 +1227,9 @@ _foamFormatConvert_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -1315,9 +1334,10 @@ _foamPostProcess_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -field|-fields|-funcs|-hostRoots|-libs|-region|-roots)
+        -field|-fields|-funcs|-hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
         -func) opts="$(_func ${cur})" ;;
+        -region) opts="$(_region ${cur})" ;;
         -solver) opts="$(_solver ${cur})" ;;
        *) ;;
     esac
@@ -1418,8 +1438,9 @@ _foamToEnsight_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -cellZone|-faceZones|-fields|-hostRoots|-libs|-patches|-region|-roots)
+        -cellZone|-faceZones|-fields|-hostRoots|-libs|-patches|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -1578,8 +1599,9 @@ _foamToVTK_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -cellSet|-excludePatches|-faceSet|-fields|-hostRoots|-libs|-pointSet|-polyhedra|-region|-roots)
+        -cellSet|-excludePatches|-faceSet|-fields|-hostRoots|-libs|-pointSet|-polyhedra|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -1634,12 +1656,13 @@ _gmshToFoam_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -libs|-region)
+        -libs)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        -*) ;;
         *)
             case "${COMP_WORDS[COMP_CWORD-2]}" in
-                -libs|-region|-case|-fileHandler) ;;
+                -libs|-case|-fileHandler) ;;
                 *) opts=""; extra="" ;;
             esac
             ;;
@@ -1690,12 +1713,13 @@ _ideasUnvToFoam_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -libs|-region)
+        -libs)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        -*) ;;
         *)
             case "${COMP_WORDS[COMP_CWORD-2]}" in
-                -libs|-region|-case|-fileHandler) ;;
+                -libs|-case|-fileHandler) ;;
                 *) opts=""; extra="" ;;
             esac
             ;;
@@ -1964,8 +1988,9 @@ _mergeBaffles_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -1991,8 +2016,9 @@ _mergeMeshes_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -libs|-region)
+        -libs)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2043,8 +2069,9 @@ _mirrorMesh_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2198,8 +2225,9 @@ _orientFaceZone_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2225,8 +2253,9 @@ _particleTracks_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2252,8 +2281,9 @@ _patchSummary_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2460,8 +2490,9 @@ _reconstructPar_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -fields|-lagrangianFields|-libs|-region)
+        -fields|-lagrangianFields|-libs)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2487,8 +2518,9 @@ _redistributePar_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2512,8 +2544,9 @@ _refineHexMesh_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2564,8 +2597,9 @@ _refineMesh_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2589,8 +2623,9 @@ _refineWallLayer_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -inSet|-libs|-region)
+        -inSet|-libs)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2643,8 +2678,9 @@ _renumberMesh_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2670,8 +2706,9 @@ _reorderPatches_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-patchOrder|-referenceCase|-referenceRegion|-region|-roots)
+        -hostRoots|-libs|-patchOrder|-referenceCase|-referenceRegion|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2774,8 +2811,9 @@ _setAtmBoundaryLayer_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2803,8 +2841,9 @@ _setFields_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2830,8 +2869,9 @@ _setsToZones_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2859,8 +2899,9 @@ _setWaves_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -U|-alpha|-hostRoots|-libs|-region|-roots)
+        -U|-alpha|-hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2969,8 +3010,9 @@ _snappyHexMesh_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-patches|-region|-roots|-surfaceSimplify)
+        -hostRoots|-libs|-patches|-roots|-surfaceSimplify)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -2984,7 +3026,7 @@ _snappyHexMeshConfig_ ()
     local line=${COMP_LINE}
     local used=$(echo "$line" | grep -oE "\-[a-zA-Z]+ ")
 
-    opts="-baffles -bounds -cellZones -clearBoundary -cylindricalBackground -defaultPatch -doc -explicitFeatures -firstLayerThickness -help -inletRegions -insidePoint -layerExpansionRatio -layers -nCells -nCellsBetweenLevels -noBackground -outletRegions -refineBackground -refinementBoxes -refinementDists -refinementLevel -refinementRegions -rotatingZones -srcDoc -surface -surfaceLevels -xMaxPatch -xMinPatch -yMaxPatch -yMinPatch -zMaxPatch -zMinPatch"
+    opts="-baffles -bounds -cellZones -clearBoundary -closedDomain -cylindricalBackground -defaultPatch -doc -explicitFeatures -firstLayerThickness -help -inletRegions -insidePoint -layerExpansionRatio -layers -minDimCells -nCells -nCellsBetweenLevels -noBackground -outletRegions -refineBackground -refinementBoxes -refinementDists -refinementLevel -refinementRegions -region -rotatingZones -srcDoc -surface -surfaceLevels -xMaxPatch -xMinPatch -yMaxPatch -yMinPatch -zMaxPatch -zMinPatch"
     for o in $used ; do opts="${opts/$o/}" ; done
     extra=""
 
@@ -2992,8 +3034,9 @@ _snappyHexMeshConfig_ ()
     case "$prev" in
         -surface)
             opts="" ; extra="-d -f" ;;
-        -baffles|-bounds|-cellZones|-defaultPatch|-firstLayerThickness|-inletRegions|-insidePoint|-layerExpansionRatio|-layers|-nCells|-nCellsBetweenLevels|-outletRegions|-refineBackground|-refinementBoxes|-refinementDists|-refinementLevel|-refinementRegions|-rotatingZones|-surfaceLevels|-xMaxPatch|-xMinPatch|-yMaxPatch|-yMinPatch|-zMaxPatch|-zMinPatch)
+        -baffles|-bounds|-cellZones|-defaultPatch|-firstLayerThickness|-inletRegions|-insidePoint|-layerExpansionRatio|-layers|-minDimCells|-nCells|-nCellsBetweenLevels|-outletRegions|-refineBackground|-refinementBoxes|-refinementDists|-refinementLevel|-refinementRegions|-rotatingZones|-surfaceLevels|-xMaxPatch|-xMinPatch|-yMaxPatch|-yMinPatch|-zMaxPatch|-zMinPatch)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -3017,8 +3060,9 @@ _splitBaffles_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -3069,8 +3113,9 @@ _splitMeshRegions_ ()
             opts="" ; extra="-d -f" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -blockedFaces|-defaultRegionName|-hostRoots|-insidePoint|-libs|-region|-roots)
+        -blockedFaces|-defaultRegionName|-hostRoots|-insidePoint|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -3148,8 +3193,9 @@ _steadyParticleTracks_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -libs|-region)
+        -libs)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -3175,8 +3221,9 @@ _stitchMesh_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -libs|-region|-tol)
+        -libs|-tol)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -3200,8 +3247,9 @@ _subsetMesh_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-patch|-region|-resultTime|-roots)
+        -hostRoots|-libs|-patch|-resultTime|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -3672,8 +3720,9 @@ _surfaceMeshTriangulate_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -faceZones|-hostRoots|-libs|-patches|-region|-roots)
+        -faceZones|-hostRoots|-libs|-patches|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -3939,8 +3988,9 @@ _temporalInterpolate_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -divisions|-fields|-hostRoots|-interpolationType|-libs|-region|-roots)
+        -divisions|-fields|-hostRoots|-interpolationType|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -3993,8 +4043,9 @@ _topoSet_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -4018,8 +4069,9 @@ _transformPoints_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-pointSet|-region|-roots)
+        -hostRoots|-libs|-pointSet|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -4043,8 +4095,9 @@ _viewFactorsGen_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -4101,8 +4154,9 @@ _writeMeshObj_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -cell|-cellSet|-face|-faceSet|-hostRoots|-libs|-point|-region|-roots)
+        -cell|-cellSet|-face|-faceSet|-hostRoots|-libs|-point|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -4151,8 +4205,9 @@ _zipUpMesh_ ()
             opts="" ; extra="-d" ;;
         -fileHandler)
             opts="uncollated collated masterUncollated" ; extra="" ;;
-        -hostRoots|-libs|-region|-roots)
+        -hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -4559,7 +4614,7 @@ _foamGet_ ()
         echo "${_files}" | xargs -n 1 | sort -u
     }
 
-    opts="-case -ext -help -no-ext -target"
+    opts="-case -ext -help -no-ext -target -region"
     for o in $used ; do opts="${opts/$o/}" ; done
     extra=""
     opts="${opts} $(_searchDirs)"
@@ -4570,10 +4625,12 @@ _foamGet_ ()
             opts="" ; extra="-d" ;;
         -ext)
             opts="" ; extra="" ;;
+        -region)
+            opts="$(_region)"; extra="" ;;
        -*) ;;
         *)
             case "${COMP_WORDS[COMP_CWORD-2]}" in
-                -case|-ext|-target) ;;
+                -case|-ext|-target|-region) ;;
                 *) opts=""; extra="" ;;
             esac
             ;;
@@ -4854,6 +4911,27 @@ _foamUnits_ ()
 }
 complete -o filenames -o nospace -F _foamUnits_ foamUnits
 
+_foamVTKSeries_ ()
+{
+    local cur="${COMP_WORDS[COMP_CWORD]}"
+    local prev="${COMP_WORDS[COMP_CWORD-1]}"
+    local line=${COMP_LINE}
+    local used=$(echo "$line" | grep -oE "\-[a-zA-Z]+ ")
+
+    opts="-case -dir -help"
+    for o in $used ; do opts="${opts/$o/}" ; done
+    extra=""
+
+    [ "$COMP_CWORD" = 1 ] || \
+    case "$prev" in
+        -case|-dir)
+            opts="" ; extra="-d" ;;
+       *) ;;
+    esac
+    COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
+}
+complete -o filenames -o nospace -F _foamVTKSeries_ foamVTKSeries
+
 _interFoam_ ()
 {
     local cur="${COMP_WORDS[COMP_CWORD]}"
@@ -5013,8 +5091,7 @@ _paraFoam_ ()
     case "$prev" in
         -case)
             opts="" ; extra="-d" ;;
-        -region)
-            opts="" ; extra="" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
@@ -5092,9 +5169,10 @@ _postProcess_ ()
             opts="uncollated collated masterUncollated" ; extra="" ;;
         -time)
             opts="$(foamListTimes -withZero 2> /dev/null)" ; extra="" ;;
-        -field|-fields|-funcs|-hostRoots|-libs|-region|-roots)
+        -field|-fields|-funcs|-hostRoots|-libs|-roots)
             opts="" ; extra="" ;;
         -func) opts="$(_func ${cur})" ;;
+        -region) opts="$(_region ${cur})" ;;
        *) ;;
     esac
     COMPREPLY=( $(compgen -W "${opts}" $extra -- ${cur}) )
